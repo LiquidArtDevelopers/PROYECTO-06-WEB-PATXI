@@ -1,0 +1,40 @@
+@use 'resources/config' as c;
+@use 'resources/global';
+
+@use 'resources/art03';
+@use 'resources/art04';
+@use 'resources/art05';
+@use 'resources/sect01';
+@use 'resources/moduloBoton01';
+@use 'resources/moduloBoton02';
+
+
+
+header{
+    background-image: url('../img/vistas/quienes-somos/quienes-somos-1500.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('../img/vistas/quienes-somos/quienes-somos-1800.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('../img/vistas/quienes-somos/quienes-somos-2560.avif');
+    }
+    h1{
+        color: c.$color00;
+        @media only screen and (min-width:c.$desktop){
+            width: 70%;
+        }
+    }
+}
+
+
+.art03{
+    img{
+        @media only screen and (min-width:c.$tablet){
+            height: 55dvh;
+        }
+    }
+}

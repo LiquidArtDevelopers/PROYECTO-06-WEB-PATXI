@@ -1,0 +1,16 @@
+@use 'resources/config' as c;
+@use 'resources/global';
+
+main{
+    height: 100dvh;
+    background-color: c.$color01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    >img{
+        width: 300px;
+        filter: invert(1);
+    }
+}
