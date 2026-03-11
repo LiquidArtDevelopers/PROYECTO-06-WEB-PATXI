@@ -10,109 +10,130 @@ $arrayRutasGet = [
             'view'      => '/views/inicio.php',
             'content'   => 'inicio'
         ],
-        '/es/sobre-nosotros' => [
-            'view'      => '/views/quienesSomos.php',
-            'content'   => 'quienesSomos'
-        ],
-        '/es/productos' => [
+
+        
+        '/es/restaurador-muebles-madera' => [
             'view'      => '/views/productos.php',
-            'content'   => 'productos'
+            'content'   => 'restaurador'
         ],
+        '/es/pintor' => [
+            'view'      => '/views/productos.php',
+            'content'   => 'pintor'
+        ],
+
+        '/es/pintor/pintar-pisos' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'pisos'
+        ],
+        '/es/pintor/pintar-balcones-fachadas' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'balcones'
+        ],
+        '/es/pintor/tratamientos-humedad' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'humedad'
+        ],
+
+
         '/es/contacto' => [
             'view'      => '/views/contacto.php',
             'content'   => 'contacto'
         ],
-        '/es/showroom' => [
-            'view'      => '/views/templates.php',
-            'content'   => 'templates'
+        '/es/sobre-mi' => [
+            'view'      => '/views/quienesSomos.php',
+            'content'   => 'quienesSomos'
         ],
-        '/es/terminos-legales' => [
-            'view'      => '/views/terminos.php',
-            'content'   => 'terminos'
-        ],
-        '/es/gracias' => [
-            'view'      => '/views/gracias.php',
-            'content'   => 'gracias'
-        ],
+
+
+        // '/es/showroom' => [
+        //     'view'      => '/views/templates.php',
+        //     'content'   => 'templates'
+        // ],
+        // '/es/terminos-legales' => [
+        //     'view'      => '/views/terminos.php',
+        //     'content'   => 'terminos'
+        // ],
+        // '/es/gracias' => [
+        //     'view'      => '/views/gracias.php',
+        //     'content'   => 'gracias'
+        // ],
         
-        '/es/productos/panaderia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/es/productos/pasteleria' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/es/productos/torrijas' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/es/zona-admin' => [
-            'view'      => '/views/zonaAdmin.php',
-            'content'   => 'zonaAdmin'
-        ],
-        '/es/logout' => [
-            'view'      => '/views/logout.php',
-            'content'   => 'logout'
-        ],
-        '/es/registro' => [
-            'view'      => '/views/logup.php',
-            'content'   => 'logup'
-        ],
+        // '/es/zona-admin' => [
+        //     'view'      => '/views/zonaAdmin.php',
+        //     'content'   => 'zonaAdmin'
+        // ],
+        // '/es/logout' => [
+        //     'view'      => '/views/logout.php',
+        //     'content'   => 'logout'
+        // ],
+        // '/es/registro' => [
+        //     'view'      => '/views/logup.php',
+        //     'content'   => 'logup'
+        // ],
     ],
     'eu' => [
         '/eu' => [
             'view'      => '/views/inicio.php',
             'content'   => 'inicio'
         ],
-        '/eu/guri-buruz' => [
-            'view'      => '/views/quienesSomos.php',
-            'content'   => 'quienesSomos'
-        ],
-        '/eu/produktuak' => [
+
+        '/eu/zurezko-altzarien-zaharberritzailea' => [
             'view'      => '/views/productos.php',
-            'content'   => 'productos'
+            'content'   => 'restaurador'
         ],
+        '/eu/margolaria' => [
+            'view'      => '/views/productos.php',
+            'content'   => 'pintor'
+        ],
+
+        '/eu/margolaria/zoruak-margotu' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'pisos'
+        ],
+        '/eu/margolaria/balkoiak-eta-fatxadak-margotu' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'balcones'
+        ],
+        '/eu/margolaria/hezetasun-tratamenduak' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'humedad'
+        ],
+
         '/eu/kontaktua' => [
             'view'      => '/views/contacto.php',
             'content'   => 'contacto'
         ],
-        '/eu/showroom' => [ 
-            'view'      => '/views/templates.php',
-            'content'   => 'templates'
+        '/eu/niri-buruz' => [
+            'view'      => '/views/quienesSomos.php',
+            'content'   => 'quienesSomos'
         ],
-        '/eu/legezko-terminoak' => [
-            'view'      => '/views/terminos.php',
-            'content'   => 'terminos'
-        ],
-        '/eu/eskerrikasko' => [
-            'view'      => '/views/gracias.php',
-            'content'   => 'gracias'
-        ],
-        '/eu/produktuak/okindegia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/eu/produktuak/goxotegia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/eu/produktuak/torrijak' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'producto'
-        ],
-        '/eu/admin-gunea' => [
-            'view'      => '/views/zonaAdmin.php',
-            'content'   => 'zonaAdmin'
-        ],
-        '/eu/logout' => [
-            'view'      => '/views/logout.php',
-            'content'   => 'logout'
-        ],
-        '/eu/erregistroa' => [
-            'view'      => '/views/logup.php',
-            'content'   => 'logup'
-        ],
+
+
+        // '/eu/showroom' => [ 
+        //     'view'      => '/views/templates.php',
+        //     'content'   => 'templates'
+        // ],
+        // '/eu/legezko-terminoak' => [
+        //     'view'      => '/views/terminos.php',
+        //     'content'   => 'terminos'
+        // ],
+        // '/eu/eskerrik-asko' => [
+        //     'view'      => '/views/gracias.php',
+        //     'content'   => 'gracias'
+        // ],
+
+        // '/eu/admin-gunea' => [
+        //     'view'      => '/views/zonaAdmin.php',
+        //     'content'   => 'zonaAdmin'
+        // ],
+        // '/eu/logout' => [
+        //     'view'      => '/views/logout.php',
+        //     'content'   => 'logout'
+        // ],
+        // '/eu/erregistroa' => [
+        //     'view'      => '/views/logup.php',
+        //     'content'   => 'logup'
+        // ],
     ]
 ];
 
