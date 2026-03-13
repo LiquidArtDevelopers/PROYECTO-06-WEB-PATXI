@@ -46,7 +46,7 @@
     <header>        
         <h1><?= $hero_h1 ?></h1>
         <div>            
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="">
         </div>
 
         

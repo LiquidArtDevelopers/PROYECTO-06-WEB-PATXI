@@ -1,14 +1,7 @@
 @use 'resources/config' as c;
 @use 'resources/global';
 
-@use 'resources/sect01';
-@use 'resources/moduloBoton01';
-@use 'resources/moduloBoton02';
-@use 'resources/art02-bis';
-@use 'resources/art03';
-@use 'resources/art05';
-@use 'resources/art06';
-@use 'resources/art01'; 
+
 
 
 
@@ -23,7 +16,7 @@ header{
         background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif');
     }
     @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-2560.avif');
+        background-image: url('https://dummyimage.com/2560x1400');
     }
     h1{
         color: c.$color00; 

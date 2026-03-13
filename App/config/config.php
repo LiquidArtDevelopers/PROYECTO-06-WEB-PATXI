@@ -16,20 +16,20 @@ $arrayRutasGet = [
             'view'      => '/views/productos.php',
             'content'   => 'restaurador'
         ],
-        '/es/pintor' => [
+        '/es/pintura' => [
             'view'      => '/views/productos.php',
             'content'   => 'pintor'
         ],
 
-        '/es/pintor/pintar-pisos' => [
+        '/es/pintura/pintar-pisos' => [
             'view'      => '/views/producto.php',
             'content'   => 'pisos'
         ],
-        '/es/pintor/pintar-balcones-fachadas' => [
+        '/es/pintura/pintar-balcones-fachadas' => [
             'view'      => '/views/producto.php',
             'content'   => 'balcones'
         ],
-        '/es/pintor/tratamientos-humedad' => [
+        '/es/pintura/tratamientos-humedad' => [
             'view'      => '/views/producto.php',
             'content'   => 'humedad'
         ],
@@ -45,10 +45,10 @@ $arrayRutasGet = [
         ],
 
 
-        // '/es/showroom' => [
-        //     'view'      => '/views/templates.php',
-        //     'content'   => 'templates'
-        // ],
+        '/es/showroom' => [
+            'view'      => '/views/templates.php',
+            'content'   => 'templates'
+        ],
         // '/es/terminos-legales' => [
         //     'view'      => '/views/terminos.php',
         //     'content'   => 'terminos'

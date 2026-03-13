@@ -42,6 +42,30 @@
     <!-- NAV -->
     <?php include $appRoot . '/includes/nav.php' ?>
 
+    <!-- HERO01 -->
+    <header>
+        <h1>Pintura y restauración de madera en Donostialdea</h1>
+        <div>
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="">
+        </div>
+        <a href="<?=$_ENV['RUTA']?>/es/contacto" class="boton">CTA</a>
+    </header>
+
+
+    <main>
+
+
+
+
+
+        <!-- CONTACTO GLOBAL -->
+        <?php include $appRoot . '/includes/contactoGlobal.php' ?>
+
+
+    </main>
+
+
+
     <!-- FOOTER -->
     <?php include $appRoot . '/includes/footer.php'?>
 </body>

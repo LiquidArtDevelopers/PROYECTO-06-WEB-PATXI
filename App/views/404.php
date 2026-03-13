@@ -23,7 +23,7 @@
     include $appRoot . '/includes/body_global.php'
     ?>
     <main>
-        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="<?= $logo_alt ?>" title="<?= $logo_title ?>">
+        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $logo_alt ?>" title="<?= $logo_title ?>">
         <h1><?= $h1_404 ?></h1>
         <a href="<?=$_ENV['RUTA']?><?= $linkInicio ?>" class="boton"><?= $cta_inicio ?></a>
     </main>

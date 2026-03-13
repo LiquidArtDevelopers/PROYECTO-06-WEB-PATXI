@@ -45,7 +45,17 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     
+    <main>
 
+
+    
+
+
+        <!-- CONTACTO GLOBAL -->
+        <?php include $appRoot . '/includes/contactoGlobal.php' ?>
+
+
+    </main>
     
 
 
