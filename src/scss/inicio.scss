@@ -1,8 +1,23 @@
 @use 'resources/config' as c;
 @use 'resources/global';
 
+@use 'resources/art01';
+@use 'resources/art02-bis';
+@use 'resources/art06';
+@use 'resources/art13';
 
+@use 'resources/moduloBoton02';
 
+// modificador del art02-bis
+.art02-bis{
+    .imagenes{
+        >a{
+            >:nth-child(2){
+                font-size: clamp(1rem, 3vw, 2rem);
+            }
+        }
+    }
+}
 
 
 
@@ -17,10 +32,7 @@ header{
     }
     @media only screen and (min-width:c.$desktop){
         background-image: url('https://dummyimage.com/2560x1400');
-    }
-    h1{
-        color: c.$color00; 
-    }
+    }    
 }
 
 .art03{

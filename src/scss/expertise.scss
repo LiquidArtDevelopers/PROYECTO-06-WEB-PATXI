@@ -2,24 +2,27 @@
 @use 'resources/global';
 
 @use 'resources/art01';
-@use 'resources/art03';
-@use 'resources/art10';
 
 @use 'resources/moduloBoton02';
 
 
-
-
 header{
-    background-image: url('../img/vistas/productos/panes-pasteles-1500.avif');
+    background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/productos/panes-pasteles-1800.avif');
+        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif');
     }
     @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/productos/panes-pasteles-2560.avif');
-    }
+        background-image: url('https://dummyimage.com/2560x1400');
+    }    
 }
+
+
+
+
+
+
+

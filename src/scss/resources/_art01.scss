@@ -8,9 +8,15 @@
     justify-content: flex-start;
     row-gap: 2rem;
     @media only screen and (min-width:c.$tablet){
-        &{
-            row-gap: 3rem;
-        }    
+        row-gap: 3rem;
+        &.upsidedown{
+            >img{
+                order: 1;
+            }
+            >div{
+                order: 0;
+            }
+        }
     }
     @media only screen and (min-width:c.$desktop){
         &{
@@ -21,6 +27,7 @@
         }    
     }
     >img{
+
         width: 100%;
         max-height: 40dvh;
         object-fit: cover;

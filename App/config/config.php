@@ -10,7 +10,6 @@ $arrayRutasGet = [
             'view'      => '/views/inicio.php',
             'content'   => 'inicio'
         ],
-
         
         '/es/restaurador-muebles-madera' => [
             'view'      => '/views/productos.php',
@@ -42,6 +41,10 @@ $arrayRutasGet = [
         '/es/sobre-mi' => [
             'view'      => '/views/quienesSomos.php',
             'content'   => 'quienesSomos'
+        ],
+        '/es/trabajos-realizados' => [
+            'view'      => '/views/expertise.php',
+            'content'   => 'expertise'
         ],
 
 
@@ -106,6 +109,10 @@ $arrayRutasGet = [
         '/eu/niri-buruz' => [
             'view'      => '/views/quienesSomos.php',
             'content'   => 'quienesSomos'
+        ],
+        '/eu/egindako-lanak' => [
+            'view'      => '/views/expertise.php',
+            'content'   => 'expertise'
         ],
 
 

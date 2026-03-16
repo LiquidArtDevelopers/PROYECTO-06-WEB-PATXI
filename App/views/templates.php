@@ -347,7 +347,7 @@
             <article class="art10">
                 <h3>Artículo 10</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum libero saepe voluptatem unde sequi quas corporis quibusdam debitis odit ea, asperiores facere ullam ab dolores perspiciatis sapiente aliquid officia nisi corrupti voluptatibus provident laboriosam similique deleniti. Consequuntur, explicabo id amet corrupti at reiciendis, ullam eaque asperiores est officiis sint?</p>
-                <div>
+                <div class="matrix-items">
                     <div class="ficha">
                     <img src="https://dummyimage.com/50x50" alt="">
                     <h4>Encabezado h4</h4>
