@@ -285,7 +285,7 @@
 
                 <h3>Artículo 09</h3>
 
-                <div>
+                <div class="art09-content">
 
                     <div class="contenedor-lista">
                     <h4>Atención personalizada</h4>

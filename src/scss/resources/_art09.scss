@@ -18,7 +18,7 @@
         width: 80%;
     }
 
-    >div{
+    .art09-content{
         // cómo es
         width: 100%;
         // cómo organiza a los hijos
@@ -76,6 +76,10 @@
             }
             >:nth-child(1){
                 transition: 0.2 ease-in-out;
+                font-size: clamp(1rem, 3vw, 1.3rem);                
+                @media only screen and (min-width:c.$tablet){
+                    min-height: 4.5rem;
+                }
             }
             ul{
                 list-style: none;

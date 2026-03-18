@@ -12,7 +12,7 @@ $arrayRutasGet = [
         ],
         
         '/es/restaurador-muebles-madera' => [
-            'view'      => '/views/productos.php',
+            'view'      => '/views/restaurador.php',
             'content'   => 'restaurador'
         ],
         '/es/pintura' => [
@@ -81,7 +81,7 @@ $arrayRutasGet = [
         ],
 
         '/eu/zurezko-altzarien-zaharberritzailea' => [
-            'view'      => '/views/productos.php',
+            'view'      => '/views/restaurador.php',
             'content'   => 'restaurador'
         ],
         '/eu/margolaria' => [

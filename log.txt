@@ -28,3 +28,9 @@
 2026-03-16 19:28:23 - Vamos a realizar el copy de la visyta de inicio.
 2026-03-16 19:33:30 - revisa que en la vista de inicio haya un minimo de 700 palabras, sino complétalo hasta llegar a ello entre todos los recursos. En la sección donde los sectores donde trabajo, quita los enlaces de 3 artículos, ya que no corresponden.
 2026-03-16 19:41:44 - deshaz este último cambio.
+2026-03-18 17:27:54 - Vamos a volver con el copy de la página de inicio. Trata de llegar a las 500 palabras entre los recursos existentes.
+2026-03-18 17:40:44 - Vamos ahora con la págoina de sobre mi
+2026-03-18 18:10:36 - Vamos con la página de restaurador
+2026-03-18 18:32:49 - Se me olvidó decirte las sub páginas de pintura deben usar la misma vista, pero con variables php donde el contenido escrito (el copy). Entiende el flujo del index.php para verr cómo se carga el json de la vista correspondiente y la url correspondiente y se variabiliza la propia vista pasra casrgasr contenido dinamico. Lo que estamos haciendo en las otras url de momento es provisional, luego variabilizaremos el contenido y lo representaremos con variables que estarán a su vez en el json correspondiente.
+2026-03-18 18:33:15 - Seguimos con la página de pintura y luego métete en tareas continuar con las sub páginas de pintura
+2026-03-18 18:39:30 - Continua luego con trabajos realizados (ahí de momento textos estáwticos ya que sólo una url usa esa vista) y llo mimso conm contacto. En contacto no harán falta tantas palabras.

@@ -1,12 +1,10 @@
-
-
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title?></title>
-    <meta name="description" content="<?=$description?>">
+    <title><?= $title ?? '' ?></title>
+    <meta name="description" content="<?= $description ?? '' ?>">
     <?php echo vite_tags('src/js/producto.js'); ?>
 
     <!-- Url de esta vista -->
@@ -17,14 +15,14 @@
     <meta name="referrer" content="origin">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?=$title?>">
-    <meta property="og:description" content="<?=$description?>">
+    <meta property="og:title" content="<?= $title ?? '' ?>">
+    <meta property="og:description" content="<?= $description ?? '' ?>">
     <meta property="og:url" content="<?=$_ENV['RUTA']?><?= $url ?>">
     <meta property="og:image" content="<?=$_ENV['RUTA']?><?= $seo_image ?>">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?=$title?>">
-    <meta name="twitter:description" content="<?=$description?>">
+    <meta name="twitter:title" content="<?= $title ?? '' ?>">
+    <meta name="twitter:description" content="<?= $description ?? '' ?>">
     <meta name="twitter:url" content="<?=$_ENV['RUTA']?><?= $url ?>">
     <meta name="twitter:image" content="<?=$_ENV['RUTA']?><?= $seo_image ?>">
 
@@ -32,7 +30,7 @@
     // Metadatos globales
     include $appRoot . '/includes/metadatos_globales.php'
     ?>
-    
+
 </head>
 <body>
 
@@ -45,12 +43,12 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <!-- HERO01 -->
-    <header>        
-        <h1>h1 variable</h1>
-        <div>            
-            <img src="https://dummyimage.com/500x300" alt="">
+    <header>
+        <h1><?= $hero_h1 ?? '' ?></h1>
+        <div>
+            <img src="https://dummyimage.com/500x300" alt="<?= $hero_img_alt ?? '' ?>" title="<?= $hero_img_title ?? '' ?>">
         </div>
-        <a href="" class="boton">CTA</a>    
+        <a href="<?= $hero_cta_href ?? '#' ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
     </header>
 
     <main>
@@ -59,14 +57,14 @@
 
             <div class="h2Especial">
                 <span></span>
-                <h2>h2 variable</h2>
+                <h2><?= $section1_h2 ?? '' ?></h2>
             </div>
 
             <!-- Artículo 13-->
             <article class="art13">
                 <img
-                    alt="" 
-                    title=""
+                    alt="<?= $art13_1_img_alt ?? '' ?>"
+                    title="<?= $art13_1_img_title ?? '' ?>"
                     srcset="
                     https://dummyimage.com/1500x900 1500w,
                     https://dummyimage.com/1100x700 1100w
@@ -75,21 +73,21 @@
                     (max-width:800px) 900px,
                     1500px
                     "
-                    src="https://dummyimage.com/1200x900"          
+                    src="https://dummyimage.com/1200x900"
                 >
                 <div>
-                    <h3>Artículo 13</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et harum exercitationem nihil quam repellat itaque maiores inventore, nulla earum cumque, optio quibusdam repudiandae nesciunt aliquam? Nisi nam asperiores optio omnis eaque blanditiis totam iusto, magnam enim tenetur soluta quo nemo? Libero voluptatum ullam labore doloribus eius veritatis corrupti in.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quam delectus error quis nihil fugiat cupiditate officiis esse, dicta praesentium illo ducimus. Dolorum adipisci, nesciunt expedita non officia ratione, saepe soluta nihil eius odit neque eaque vitae illo deserunt.</p>
-                    <a href="#" class="boton">CTA</a>
+                    <h3><?= $art13_1_h3 ?? '' ?></h3>
+                    <p><?= $art13_1_p1 ?? '' ?></p>
+                    <p><?= $art13_1_p2 ?? '' ?></p>
+                    <a href="<?= $art13_1_cta_href ?? '#' ?>" class="boton"><?= $art13_1_cta_text ?? '' ?></a>
                 </div>
             </article>
 
             <!-- Artículo 13 invertido -->
             <article class="art13 upsidedown">
                 <img
-                    alt="" 
-                    title=""
+                    alt="<?= $art13_2_img_alt ?? '' ?>"
+                    title="<?= $art13_2_img_title ?? '' ?>"
                     srcset="
                     https://dummyimage.com/1500x900 1500w,
                     https://dummyimage.com/1100x700 1100w
@@ -98,13 +96,13 @@
                     (max-width:800px) 900px,
                     1500px
                     "
-                    src="https://dummyimage.com/1200x900"          
+                    src="https://dummyimage.com/1200x900"
                 >
                 <div>
-                    <h3>Articulo 13 invertido (class upsidedown)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et harum exercitationem nihil quam repellat itaque maiores inventore, nulla earum cumque, optio quibusdam repudiandae nesciunt aliquam? Nisi nam asperiores optio omnis eaque blanditiis totam iusto, magnam enim tenetur soluta quo nemo? Libero voluptatum ullam labore doloribus eius veritatis corrupti in.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quam delectus error quis nihil fugiat cupiditate officiis esse, dicta praesentium illo ducimus. Dolorum adipisci, nesciunt expedita non officia ratione, saepe soluta nihil eius odit neque eaque vitae illo deserunt.</p>
-                    <a href="#" class="boton">CTA</a>
+                    <h3><?= $art13_2_h3 ?? '' ?></h3>
+                    <p><?= $art13_2_p1 ?? '' ?></p>
+                    <p><?= $art13_2_p2 ?? '' ?></p>
+                    <a href="<?= $art13_2_cta_href ?? '#' ?>" class="boton"><?= $art13_2_cta_text ?? '' ?></a>
                 </div>
             </article>
 
@@ -115,61 +113,60 @@
             <!-- artículo 09 -->
             <article class="art09">
 
-                <!-- <h3>Artículo 09</h3> -->
                 <div class="h2Especial">
                     <span></span>
-                    <h2>h2 variable</h2>
+                    <h2><?= $section2_h2 ?? '' ?></h2>
                 </div>
 
-                <div>
+                <div class="art09-content">
                     <div class="contenedor-lista">
-                        <h3>Atención personalizada</h3>
+                        <h3><?= $list1_h3 ?? '' ?></h3>
                         <ul>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list1_item_1 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list1_item_2 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list1_item_3 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list1_item_4 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list1_item_5 ?? '' ?></span>
                             </li>
                         </ul>
                     </div>
 
                     <div class="contenedor-lista">
-                        <h3>Los mejores ingredientes</h3>
+                        <h3><?= $list2_h3 ?? '' ?></h3>
                         <ul>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list2_item_1 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list2_item_2 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list2_item_3 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list2_item_4 ?? '' ?></span>
                             </li>
                             <li>
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="" title="">
-                            <span>Lorem ipsum dolor sit amet.</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/checkmark-circle.svg" alt="<?= $list_icon_alt ?? '' ?>" title="<?= $list_icon_title ?? '' ?>">
+                            <span><?= $list2_item_5 ?? '' ?></span>
                             </li>
                         </ul>
                     </div>
@@ -181,35 +178,35 @@
             <!-- Artículo 11 -->
             <article class="art11">
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_1_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_2_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_3_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_4_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_5_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_6_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_7_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="">
+                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_8_alt ?? '' ?>">
                 </div>
 
             </article>
@@ -220,35 +217,35 @@
 
             <div class="h2Especial">
                 <span></span>
-                <h2>h2 variable</h2>
+                <h2><?= $section3_h2 ?? '' ?></h2>
             </div>
 
             <!-- Artículo 03 -->
             <article class="art03">
-                
-                <h3>Artículo 03</h3>
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro impedit deleniti cupiditate laudantium facere explicabo quo doloremque amet, molestias molestiae cum beatae, dolorum temporibus similique itaque dolore. Assumenda, possimus laborum.</p>
+                <h3><?= $art03_1_h3 ?? '' ?></h3>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dolor a asperiores recusandae necessitatibus. Consequatur, molestiae ducimus? Eum, assumenda labore.</p>
+                <p><?= $art03_1_p1 ?? '' ?></p>
 
-                <img src="https://dummyimage.com/1500x900" alt="" title="">
+                <p><?= $art03_1_p2 ?? '' ?></p>
+
+                <img src="https://dummyimage.com/1500x900" alt="<?= $art03_1_img_alt ?? '' ?>" title="<?= $art03_1_img_title ?? '' ?>">
 
             </article>
             <!-- Artículo 03 -->
             <article class="art03">
-                
-                <h3>Artículo 03</h3>
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro impedit deleniti cupiditate laudantium facere explicabo quo doloremque amet, molestias molestiae cum beatae, dolorum temporibus similique itaque dolore. Assumenda, possimus laborum.</p>
+                <h3><?= $art03_2_h3 ?? '' ?></h3>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dolor a asperiores recusandae necessitatibus. Consequatur, molestiae ducimus? Eum, assumenda labore.</p>
+                <p><?= $art03_2_p1 ?? '' ?></p>
 
-                <img src="https://dummyimage.com/1500x900" alt="" title="">
+                <p><?= $art03_2_p2 ?? '' ?></p>
+
+                <img src="https://dummyimage.com/1500x900" alt="<?= $art03_2_img_alt ?? '' ?>" title="<?= $art03_2_img_title ?? '' ?>">
 
             </article>
         </section>
-    
+
 
 
         <!-- CONTACTO GLOBAL -->
@@ -256,7 +253,7 @@
 
 
     </main>
-    
+
 
 
     <!-- FOOTER -->

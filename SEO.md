@@ -1,6 +1,8 @@
 # Esquema de URLs, objetivos y encabezados
 
-- Sigue este esquema para conocer el objetivo de posicionamiento de cada URL y la jerarquía de encabezados que tiene.
+- Sigue este esquema para conocer el objetivo de posicionamiento de cada URL y la jerarquía de encabezados que tiene. Sabrás de qué hablar en cada párrafo en función de su título y del objetivo de posicionamiento de dicha url.
+
+- No añadas párrafos o recursos adicionales a los existentes ya en la vista. Cuando se te pida hacer el copy y llegar a un mínimo de palabras por página, debes usar los párrafos existentes de los recursos existentes en la vista para aumentar o disminuir el número de palabras de manera coherente y lógica. Habrá páginas que por sus pocos recursos existentes en su vista sea desmedido tratar de llegar a un número alto de palabras. En ese caso se valolará el añadir más recursos de los existentes, pero se hará de forma manual. Me avisarás en tu respuesta el número de palabras que has incluido finalmente para que pueda tomar la decisión de añadir o no más recursos a la vista. 
 
 ## Reglas básicas SEO
 
