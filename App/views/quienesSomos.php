@@ -66,13 +66,13 @@
 
                 <img
                 srcset="
-                https://dummyimage.com/900x900 900w,
-                https://dummyimage.com/1800x1100 1800w,
-                https://dummyimage.com/2560x1200 2560w
+                <?=$_ENV['RUTA']?>/assets/img/vistas/trato-cercano-1500.avif 1500w,
+                <?=$_ENV['RUTA']?>/assets/img/vistas/trato-cercano-1800.avif 1800w,
+                <?=$_ENV['RUTA']?>/assets/img/vistas/trato-cercano-2560.avif 2560w
                 "
                 sizes="
-                (width <= 900px) 800px,
-                (width <= 1500px) 1200px,
+                (width <= 900px) 1500px,
+                (width <= 1500px) 1800px,
                 2560px
                 "
                 src="https://dummyimage.com/900x900"
@@ -174,48 +174,48 @@
                 <p>Llevo años trabajando en proyectos de pintura y restauración en Donostialdea, combinando técnica, planificación y un trato directo que facilita cada fase del proceso. Esa experiencia me permite adaptar el servicio a contextos distintos: viviendas con uso intensivo, comunidades con coordinación entre vecinos, locales que no pueden detener su actividad y piezas de madera que requieren intervención cuidadosa. Mi enfoque siempre parte de un diagnóstico previo del estado real de cada superficie para decidir qué conviene hacer y qué no merece la pena prometer. De esta manera se consigue un resultado equilibrado entre estética, resistencia y presupuesto, con soluciones pensadas para durar y para reducir mantenimientos innecesarios a medio plazo.</p>
                 <div class="matrix-items">
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de servicio en viviendas">
-                    <h3>Viviendas</h3>
-                    <p>Trabajo en pisos y casas particulares con planificación por estancias, protecciones completas y acabados uniformes para que puedas volver a usar tu hogar con rapidez y sin complicaciones.</p>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/home-outline.svg" alt="Icono de servicio en viviendas">
+                        <h3 class="sub-header">Viviendas</h3>
+                        <p>Trabajo en pisos y casas particulares con planificación por estancias, protecciones completas y acabados uniformes para que puedas volver a usar tu hogar con rapidez y sin complicaciones.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de servicio en comunidades">
-                    <h3>Comunidades</h3>
-                    <p>Actúo en portales, escaleras y zonas comunes coordinando tiempos y accesos para minimizar molestias, mantener la seguridad y entregar un resultado resistente al uso diario.</p>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/business.svg" alt="Icono de servicio en comunidades">
+                        <h3 class="sub-header">Comunidades</h3>
+                        <p>Actúo en portales, escaleras y zonas comunes coordinando tiempos y accesos para minimizar molestias, mantener la seguridad y entregar un resultado resistente al uso diario.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de restauración de madera">
-                    <h3>Muebles y elementos de madera</h3>
-                    <p>Restauro muebles, puertas y barandillas mediante saneado, lijado y protección final, recuperando funcionalidad y aspecto sin perder el carácter original de cada pieza.</p>
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/system/furniture.svg" alt="Icono de restauración de madera">
+                        <h3 class="sub-header">Muebles de madera</h3>
+                        <p>Restauro muebles, puertas y barandillas mediante saneado, lijado y protección final, recuperando funcionalidad y aspecto sin perder el carácter original de cada pieza.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de trabajo en portales y escaleras">
-                    <h3>Portales y escaleras</h3>
-                    <p>Renuevo zonas de paso con materiales adecuados al roce constante, cuidando la imagen del edificio y mejorando la conservación con un mantenimiento más sencillo.</p>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/stairs-arch.svg" alt="Icono de trabajo en portales y escaleras">
+                        <h3 class="sub-header">Portales y escaleras</h3>
+                        <p>Renuevo zonas de paso con materiales adecuados al roce constante, cuidando la imagen del edificio y mejorando la conservación con un mantenimiento más sencillo.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de trabajo en locales comerciales">
-                    <h3>Locales comerciales</h3>
-                    <p>Planifico trabajos fuera de horas críticas cuando hace falta para reducir impacto en la actividad y asegurar una ejecución limpia, rápida y alineada con tu imagen de marca.</p>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/add-business-outline.svg" alt="Icono de trabajo en locales comerciales">
+                        <h3 class="sub-header">Locales comerciales</h3>
+                        <p>Planifico trabajos fuera de horas críticas cuando hace falta para reducir impacto en la actividad y asegurar una ejecución limpia, rápida y alineada con tu imagen de marca.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="Icono de trabajo en garajes y trasteros">
-                    <h3>Garajes y trasteros</h3>
-                    <p>Intervengo en superficies exigentes con sistemas de pintura duraderos, pensados para humedad, tránsito y desgaste, mejorando protección y funcionalidad del espacio.</p>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/garages.svg" alt="Icono de trabajo en garajes y trasteros">
+                        <h3 class="sub-header">Garajes y trasteros</h3>
+                        <p>Intervengo en superficies exigentes con sistemas de pintura duraderos, pensados para humedad, tránsito y desgaste, mejorando protección y funcionalidad del espacio.</p>
                     </div>
                     <!-- <div class="ficha">
                     <img src="https://dummyimage.com/50x50" alt="">
-                    <h3>Encabezado h3</h3>
+                    <h3 class="sub-header">Encabezado h3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
                     <img src="https://dummyimage.com/50x50" alt="">
-                    <h3>Encabezado h3</h3>
+                    <h3 class="sub-header">Encabezado h3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
                     <img src="https://dummyimage.com/50x50" alt="">
-                    <h3>Encabezado h3</h3>
+                    <h3 class="sub-header">Encabezado h3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div> -->
                 </div>

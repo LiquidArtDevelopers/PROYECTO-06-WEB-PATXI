@@ -2,7 +2,11 @@
 @use 'resources/global';
 
 
+@use 'resources/art01';
+@use 'resources/art05';
 @use 'resources/artForm';
+
+@use 'resources/moduloBoton02';
 
 header{
     background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif');

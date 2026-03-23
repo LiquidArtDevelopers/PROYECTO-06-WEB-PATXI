@@ -349,49 +349,49 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsum libero saepe voluptatem unde sequi quas corporis quibusdam debitis odit ea, asperiores facere ullam ab dolores perspiciatis sapiente aliquid officia nisi corrupti voluptatibus provident laboriosam similique deleniti. Consequuntur, explicabo id amet corrupti at reiciendis, ullam eaque asperiores est officiis sint?</p>
                 <div class="matrix-items">
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                     <div class="ficha">
-                    <img src="https://dummyimage.com/50x50" alt="">
-                    <h4>Encabezado h4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
+                        <img src="https://dummyimage.com/50x50" alt="">
+                        <h4 class="sub-header">Encabezado h4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt totam excepturi officia ipsam aut illo recusandae placeat, neque ut inventore.</p>
                     </div>
                 </div>
             </article>

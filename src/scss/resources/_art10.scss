@@ -35,6 +35,9 @@
             @media only screen and (min-width:c.$tablet){
                 width: 31%;
             }
+            .sub-header{
+                color: c.$color03;
+            }
             img{
                width: 30px;
                @media only screen and (min-width:c.$tablet){
