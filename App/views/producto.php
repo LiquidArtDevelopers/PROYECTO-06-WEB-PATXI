@@ -1,3 +1,11 @@
+<?php
+$headerImg1500 = $imgHeader1500 ?? $imgHeroSrc ?? '';
+$headerImg1800 = $imgHeader1800 ?? $headerImg1500;
+$headerImg2560 = $imgHeader2560 ?? $headerImg1800;
+$headerInlineStyle = $headerImg1500 !== ''
+    ? "background-image: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg1500 . "');"
+    : '';
+?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -6,6 +14,28 @@
     <title><?= $title ?? '' ?></title>
     <meta name="description" content="<?= $description ?? '' ?>">
     <?php echo vite_tags('src/js/producto.js'); ?>
+    <style>
+        header {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        <?php if ($headerImg1800 !== ''): ?>
+        @media only screen and (min-width: 768px) {
+            header {
+                background-image: url('<?=$_ENV['RUTA']?>/assets/img/vistas<?= $headerImg1800 ?>');
+            }
+        }
+        <?php endif; ?>
+        <?php if ($headerImg2560 !== ''): ?>
+        @media only screen and (min-width: 1200px) {
+            header {
+                background-image: url('<?=$_ENV['RUTA']?>/assets/img/vistas<?= $headerImg2560 ?>');
+            }
+        }
+        <?php endif; ?>
+    </style>
 
     <!-- Url de esta vista -->
     <link rel="canonical" href="<?=$_ENV['RUTA']?><?= $url ?>">
@@ -43,11 +73,8 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <!-- HERO01 -->
-    <header>
+    <header style="<?= $headerInlineStyle ?>">
         <h1><?= $hero_h1 ?? '' ?></h1>
-        <div>
-            <img src="https://dummyimage.com/500x300" alt="<?= $hero_img_alt ?? '' ?>" title="<?= $hero_img_title ?? '' ?>">
-        </div>
         <a href="<?= $hero_cta_href ?? '#' ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
     </header>
 
@@ -66,14 +93,14 @@
                     alt="<?= $art13_1_img_alt ?? '' ?>"
                     title="<?= $art13_1_img_title ?? '' ?>"
                     srcset="
-                    https://dummyimage.com/1500x900 1500w,
-                    https://dummyimage.com/1100x700 1100w
+                    <?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_1_1500 ?? '' ?> 1500w,
+                    <?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_1_1100 ?? '' ?> 1100w
                     "
                     sizes="
                     (max-width:800px) 900px,
                     1500px
                     "
-                    src="https://dummyimage.com/1200x900"
+                    src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_1_src ?? '' ?>"
                 >
                 <div>
                     <h3><?= $art13_1_h3 ?? '' ?></h3>
@@ -89,14 +116,14 @@
                     alt="<?= $art13_2_img_alt ?? '' ?>"
                     title="<?= $art13_2_img_title ?? '' ?>"
                     srcset="
-                    https://dummyimage.com/1500x900 1500w,
-                    https://dummyimage.com/1100x700 1100w
+                    <?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_2_1500 ?? '' ?> 1500w,
+                    <?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_2_1100 ?? '' ?> 1100w
                     "
                     sizes="
                     (max-width:800px) 900px,
                     1500px
                     "
-                    src="https://dummyimage.com/1200x900"
+                    src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt13_2_src ?? '' ?>"
                 >
                 <div>
                     <h3><?= $art13_2_h3 ?? '' ?></h3>
@@ -178,35 +205,35 @@
             <!-- Artículo 11 -->
             <article class="art11">
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_1_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_1 ?? '' ?>" alt="<?= $gallery_img_1_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_2_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_2 ?? '' ?>" alt="<?= $gallery_img_2_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_3_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_3 ?? '' ?>" alt="<?= $gallery_img_3_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_4_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_4 ?? '' ?>" alt="<?= $gallery_img_4_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_5_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_5 ?? '' ?>" alt="<?= $gallery_img_5_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_6_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_6 ?? '' ?>" alt="<?= $gallery_img_6_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_7_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_7 ?? '' ?>" alt="<?= $gallery_img_7_alt ?? '' ?>">
                 </div>
 
                 <div>
-                    <img src="https://dummyimage.com/900x900" alt="<?= $gallery_img_8_alt ?? '' ?>">
+                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgGallery_8 ?? '' ?>" alt="<?= $gallery_img_8_alt ?? '' ?>">
                 </div>
 
             </article>
@@ -229,7 +256,7 @@
 
                 <p><?= $art03_1_p2 ?? '' ?></p>
 
-                <img src="https://dummyimage.com/1500x900" alt="<?= $art03_1_img_alt ?? '' ?>" title="<?= $art03_1_img_title ?? '' ?>">
+                <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt03_1_src ?? '' ?>" alt="<?= $art03_1_img_alt ?? '' ?>" title="<?= $art03_1_img_title ?? '' ?>">
 
             </article>
             <!-- Artículo 03 -->
@@ -241,7 +268,7 @@
 
                 <p><?= $art03_2_p2 ?? '' ?></p>
 
-                <img src="https://dummyimage.com/1500x900" alt="<?= $art03_2_img_alt ?? '' ?>" title="<?= $art03_2_img_title ?? '' ?>">
+                <img src="<?=$_ENV['RUTA']?>/assets/img/vistas<?= $imgArt03_2_src ?? '' ?>" alt="<?= $art03_2_img_alt ?? '' ?>" title="<?= $art03_2_img_title ?? '' ?>">
 
             </article>
         </section>
