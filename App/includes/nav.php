@@ -1,6 +1,7 @@
+
 <input type="checkbox" name="toggle" id="chec" >
 <label for="chec" class="contenedor_spam">
-    <span ></span>
+    <span></span>
     <span></span>
     <span></span>
 </label>

@@ -50,6 +50,15 @@ $padMax: 3rem;
 
 html{
     scroll-behavior: smooth;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    @media only screen and (min-width:$desktop){
+        &::-webkit-scrollbar{
+            display: initial;
+        }   
+    }
 }
 
 .error{
@@ -77,7 +86,7 @@ h2{
 }
 h3{
     color: $color02;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 1.4rem);
     letter-spacing: 2px;
 }
 h4{

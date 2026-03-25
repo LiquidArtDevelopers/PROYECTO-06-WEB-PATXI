@@ -21,28 +21,73 @@
         transform: rotate(45deg) translate(0px, -1px);
     }
     &:checked ~ nav{
-        min-height: 100dvh;
+        height: 100dvh;
+        overflow: auto;
+        align-items: flex-start;
+        padding: 1.5rem;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        background-image: url('../../img/vistas/fondo-menu.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        >ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            row-gap: 1rem;
+            padding-top: 2rem;
+            li{
+                a{
+                    font-size: 1.2rem;
+                }
+                .sublista{
+                    left: 0;
+                    top: 0;
+                    row-gap: 1.2rem;
+                    list-style: circle;
+                    margin-left: 1rem;
+                    position: relative;
+                    max-height: 500px;
+                    background-color: c.$color00;
+                    padding: 1rem;
+                    opacity: 1;
+                    pointer-events: auto;
+                    background-color: initial;
+                }
+            }
+        }
+        >img{
+            top:1rem;
+            left:1.5rem;
+        }
+        .idiomas{
+            position: relative;
+            flex-direction: row;
+            left: 50%;
+            transform: translateX(-50%);
+            padding-top: initial;
+            column-gap: 3rem;
+        }
     }
 }
 .contenedor_spam {
     position: fixed;
-    top:3px;
-    right: 3px;
+    top:10px;
+    right: 1rem;
     z-index: 1500;
-    width: 50px;
-    height: 50px;
-    position: absolute;
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-flow: row wrap;
     align-items: center; 
     cursor: pointer;
-    @media only screen and (min-width:c.$tablet){
+    @media only screen and (min-width:c.$desktop){
         display: none;
     }
     span {
         width: 100%;
-        height: 3px;
-        background: black;
+        height: 2px;
+        background: c.$color03;
         transition: all 250ms ease-out;
         transform-origin: 0 0;
     }
@@ -62,7 +107,7 @@ nav{
     align-items: center;
     justify-content: flex-start;
     row-gap: 1rem;
-    @media only screen and (min-width: c.$tablet){
+    @media only screen and (min-width: c.$desktop){
         &{   
             padding: 0.5rem 1rem;         
             flex-direction: row;
@@ -77,52 +122,60 @@ nav{
         position: absolute;
         left: 1rem;
         top: 0.5rem;
-        @media only screen and (min-width:c.$tablet){
+        @media only screen and (min-width:c.$desktop){
             &{
               position: initial;  
             }
         }
     }
-    >ul{
+    >ul{        
         list-style: none;
-        display: flex;
+        display: none;
         flex-direction: row;
         column-gap: 1rem;
         position: relative;
+        @media only screen and (min-width:c.$desktop){
+            display: flex;
+        }
         a{
             color: c.$color02;
             font-size: clamp(0.8rem, 3vw, 1.1rem);
         }
         li{
             position: relative;            
-            .sublista{
-                max-height: 0;
-                overflow: hidden;
-                position: absolute;
-                top: 1.2rem;
-                z-index: 10;
-                list-style: none;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-                row-gap: 0.5rem;
+            .sublista{                    
+                @media only screen and (min-width:c.$desktop){
+                    max-height: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 1.2rem;
+                    z-index: 10;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    row-gap: 0.5rem;
 
-                /* estados iniciales para animar opacity y padding */
-                padding: 0;
-                opacity: 0;
-                pointer-events: none;
+                    /* estados iniciales para animar opacity y padding */
+                    padding: 0;
+                    opacity: 0;
+                    pointer-events: none;
 
-                /* animar max-height + opacity + padding para un efecto suave */
-                transition: 0.35s ease;
+                    /* animar max-height + opacity + padding para un efecto suave */
+                    transition: 0.35s ease;
+                }
+                
             }
             &:hover .sublista{
-                /* max-height con un valor suficientemente grande para el contenido */
-                max-height: 500px;
-                background-color: c.$color00;
-                padding: 1rem;
-                opacity: 1;
-                pointer-events: auto;
+                /* max-height con un valor suficientemente grande para el contenido */                
+                @media only screen and (min-width:c.$desktop){
+                    max-height: 500px;
+                    background-color: c.$color00;
+                    padding: 1rem;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
             }
         }
         
@@ -131,7 +184,7 @@ nav{
         position: absolute;
         top: 0.5rem;
         right: 1rem;
-        @media only screen and (min-width:c.$tablet){
+        @media only screen and (min-width:c.$desktop){
             &{
               position: initial;  
             }
