@@ -8,7 +8,7 @@
 
     <li><a href="<?=$_ENV['RUTA']?><?= $linkQuienesSomos ?>" title="<?= $menuQuienesSomos ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/person.svg" alt="<?= $menuQuienesSomos ?>" title="<?= $menuQuienesSomos ?>"><?= $menuQuienesSomos ?></a></li>
 
-    <li><a href="<?=$_ENV['RUTA']?><?= $linkRestaurador ?>" title="<?= $menuRestaurador ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/tools-power-drill-sharp.svg" alt="<?= $menuRestaurador ?>" title="<?= $menuRestaurador ?>"><?= $menuRestaurador ?></a></li>
+    <li><a href="<?=$_ENV['RUTA']?><?= $linkRestaurador ?>" title="<?= $menuRestaurador ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/furniture.svg" alt="<?= $menuRestaurador ?>" title="<?= $menuRestaurador ?>"><?= $menuRestaurador ?></a></li>
 
     <li>
         <a href="<?=$_ENV['RUTA']?><?= $linkPintor ?>" title="<?= $menuPintor ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/paint-brush-32-filled.svg" alt="<?= $menuPintor ?>" title="<?= $menuPintor ?>"><?= $menuPintor ?></a>
@@ -21,7 +21,7 @@
         </ul>
     </li>
 
-    <li><a href="<?=$_ENV['RUTA']?><?= $linkExpertise ?>" title="<?= $menuExpertise ?>"><?= $menuExpertise ?></a></li>
+    <li><a href="<?=$_ENV['RUTA']?><?= $linkExpertise ?>" title="<?= $menuExpertise ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/house-check-fill.svg" alt="<?= $menuPintor ?>" title="<?= $menuPintor ?>"><?= $menuExpertise ?></a></li>
 
-    <li><a href="<?=$_ENV['RUTA']?><?= $linkContacto ?>" title="<?= $menuContacto ?>"><?= $menuContacto ?></a></li>
+    <li><a href="<?=$_ENV['RUTA']?><?= $linkContacto ?>" title="<?= $menuContacto ?>"><img src="<?=$_ENV['RUTA']?>/assets/img/system/telephone-in-solid.svg" alt="<?= $menuPintor ?>" title="<?= $menuPintor ?>"><?= $menuContacto ?></a></li>
 </ul>

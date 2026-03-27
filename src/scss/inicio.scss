@@ -22,17 +22,18 @@
 
 
 header{
-    background-image: url('../img/vistas/header-patxi-pintor-restaurador-1500.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/header-patxi-pintor-restaurador-1800.avif');
+    overflow: hidden;
+    background: transparent;
+    video{
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        object-fit: contain;
+        top: 0;
+        bottom: 0;
+        z-index: -10;
+        // max-height: 100dvh;
     }
-    @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/header-patxi-pintor-restaurador-2560.avif');
-    }    
 }
 
 .art03{

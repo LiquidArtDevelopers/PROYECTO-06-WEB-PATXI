@@ -49,6 +49,8 @@
             <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="Patxi, pintor y restaurador de madera en Donostialdea" title="Pintura y restauración con Patxi">
         </div>
         <a href="<?=$_ENV['RUTA']?>/es/contacto" class="boton">Solicitar presupuesto</a>
+        <video autoplay loop src="<?=$_ENV['RUTA']?>/assets/img/videos/6474072-uhd_2560_1440_25fps.webm">
+        </video>
     </header>
 
     <main>
