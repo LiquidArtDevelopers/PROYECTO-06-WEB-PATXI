@@ -140,6 +140,14 @@ nav{
         a{
             color: c.$color02;
             font-size: clamp(0.8rem, 3vw, 1.1rem);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            column-gap: 0.5rem;
+            >img{
+                filter: c.$color03svg;
+            }
         }
         li{
             position: relative;            
