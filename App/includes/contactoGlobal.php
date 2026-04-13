@@ -3,53 +3,53 @@
     <!-- artForm02 ajax -->
     <article class="artForm02">
 
-        <h3>Formulario de contacto</h3>
+        <h3><?= $contact_form_h3 ?? '' ?></h3>
         <div>
             <div class="contenedor-form">
 
-                <img src="<?=$_ENV['RUTA']?>/assets/img/system/mail.svg" alt="Icono de formulario de contacto">
+                <img src="<?=$_ENV['RUTA']?>/assets/img/system/mail.svg" alt="<?= $contact_form_icon_alt ?? '' ?>">
 
                 <!-- MODAL CUANDO EL ENVIO ES CORRECTO -->
                 <div id="modal_envio">
-                    <h3 id="h3_modal_envio">Consulta enviada correctamente</h3>
-                    <p id="p_modal_envio">Gracias por tu mensaje. Te respondere lo antes posible para revisar tu caso y preparar una propuesta ajustada.</p>
-                    <div class="boton" id="boton_modal_envio">Enviar otra consulta</div>
+                    <h3 id="h3_modal_envio"><?= $contact_form_modal_h3 ?? '' ?></h3>
+                    <p id="p_modal_envio"><?= $contact_form_modal_p ?? '' ?></p>
+                    <div class="boton" id="boton_modal_envio"><?= $contact_form_modal_button ?? '' ?></div>
                 </div>
 
                 <form id="idForAjax">
 
                     <p class="error" id="errorForm02"></p>
 
-                    <label for="nombreAjax">Nombre *</label>
-                    <input type="text" id="nombreAjax" name="nombre" placeholder="Escribe aqui tu nombre *">
+                    <label for="nombreAjax"><?= $contact_form_label_nombre ?? '' ?></label>
+                    <input type="text" id="nombreAjax" name="nombre" placeholder="<?= $contact_form_placeholder_nombre ?? '' ?>">
 
-                    <label for="telefonoAjax">Telefono *</label>
-                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="Escribe aqui tu telefono *">
+                    <label for="telefonoAjax"><?= $contact_form_label_telefono ?? '' ?></label>
+                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="<?= $contact_form_placeholder_telefono ?? '' ?>">
 
-                    <label for="emailAjax">Correo electronico</label>
-                    <input type="email" id="emailAjax" name="email" placeholder="Escribe aqui tu correo electronico">
+                    <label for="emailAjax"><?= $contact_form_label_email ?? '' ?></label>
+                    <input type="email" id="emailAjax" name="email" placeholder="<?= $contact_form_placeholder_email ?? '' ?>">
 
-                    <label for="mensajeAjax">Escribe tu mensaje</label>
-                    <textarea name="mensaje" id="mensajeAjax" placeholder="Escribe aqui tu mensaje"></textarea>
+                    <label for="mensajeAjax"><?= $contact_form_label_mensaje ?? '' ?></label>
+                    <textarea name="mensaje" id="mensajeAjax" placeholder="<?= $contact_form_placeholder_mensaje ?? '' ?>"></textarea>
 
                     <div class="horizontal">
-                        <label for="terminosAjax">Aceptar terminos y condiciones de privacidad</label>
+                        <label for="terminosAjax"><?= $contact_form_label_terminos ?? '' ?></label>
                         <input type="checkbox" name="terminos" id="terminosAjax">
                     </div>
 
-                    <label for="respuesta">Resuelve</label>
+                    <label for="respuesta"><?= $contact_form_label_respuesta ?? '' ?></label>
                     <div class="horizontal">
                         <span id="num1ajax"></span>
                         <span id="operadorajax"></span>
                         <span id="num2ajax"></span>
-                        <input type="text" name="respUser" id="respuestaajax" placeholder="Respuesta" autocomplete="off">
+                        <input type="text" name="respUser" id="respuestaajax" placeholder="<?= $contact_form_placeholder_respuesta ?? '' ?>" autocomplete="off">
                         <input type="hidden" name="respSystem" id="respSystemajax" value="">
                     </div>
 
                     <input type="hidden" name="url" value="<?= $url ?>">
                     <input type="hidden" name="lang" value="<?= $lang ?>">
 
-                    <input type="submit" class="boton" value="Enviar" id="botonEnviarAjax">
+                    <input type="submit" class="boton" value="<?= $contact_form_submit ?? '' ?>" id="botonEnviarAjax">
                 </form>
 
                 <div class="moduloLoader01" id="moduloLoader01">
@@ -97,26 +97,26 @@
                 <ul>
                     <li>
                         <a href="tel:+34943123123" target="_blank">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/tel.svg" alt="Telefono" title="Telefono">
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/tel.svg" alt="<?= $contact_info_phone_alt ?? '' ?>" title="<?= $contact_info_phone_title ?? '' ?>">
                             <span>943 123 123</span>
                         </a>
                     </li>
                     <li>
                         <a href="mailto:aranaz@webda.eus" target="_blank">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/mail.svg" alt="Correo electronico" title="Correo electronico">
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/mail.svg" alt="<?= $contact_info_email_alt ?? '' ?>" title="<?= $contact_info_email_title ?? '' ?>">
                             <span>aranaz@webda.eus</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://wa.me/628749350" target="_blank">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/wa.svg" alt="WhatsApp" title="WhatsApp">
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/wa.svg" alt="<?= $contact_info_whatsapp_alt ?? '' ?>" title="<?= $contact_info_whatsapp_title ?? '' ?>">
                             <span>628 749 350</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/map.svg" alt="Ubicacion" title="Ubicacion">
-                            <span>C/ Juan Fermin, Juan F. Gilisagasti Kalea, 4, 1o, 20018 Donostia / San Sebastian, Gipuzkoa</span>
+                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/map.svg" alt="<?= $contact_info_location_alt ?? '' ?>" title="<?= $contact_info_location_title ?? '' ?>">
+                            <span><?= $contact_info_address ?? '' ?></span>
                         </a>
                     </li>
                 </ul>

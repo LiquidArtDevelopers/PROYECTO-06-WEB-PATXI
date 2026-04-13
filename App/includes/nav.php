@@ -7,7 +7,7 @@
 </label>
 
 <nav>
-    <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="Logotipo Panadería Aginaga" title="Panadería Aginaga" width="100" height="40">
+    <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $navLogoAlt ?? '' ?>" title="<?= $navLogoTitle ?? '' ?>" width="100" height="40">
 
     <?php
     // enlaces de la web

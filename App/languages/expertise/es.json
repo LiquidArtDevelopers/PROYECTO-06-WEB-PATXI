@@ -1,5 +1,161 @@
 {
-  "seo_title": "Panadería Aginaga | Obrador de pan y pastelería artesanal",
-  "seo_description": "Panadería y pastelería artesanal en Aginaga desde 1925. Conoce a nuestro equipo, descubre nuestros productos y disfruta de un trato cercano en cada visita.",
-  "seo_image": "/assets/img/logos/logotipo.svg"
+  "seo_title": "Trabajos realizados de pintura y restauración | Patxi",
+  "seo_description": "Ejemplos de trabajos de pintura y restauración de madera realizados por Patxi en Donostia, Andoain, Lasarte-Oria, Usurbil, Orio y Zarautz.",
+  "seo_image": "/assets/img/logos/logotipo.svg",
+  "hero_h1": "Trabajos realizados",
+  "hero_logo_alt": "Trabajos de pintura y restauración realizados en Donostialdea",
+  "hero_logo_title": "Proyectos reales de Patxi",
+  "hero_cta_text": "Solicitar un presupuesto similar",
+  "expertise_sections": [
+    {
+      "h2": "Donostia - San Sebastián",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Trabajo de pintura interior en vivienda de Donostia",
+          "img_title": "Vivienda particular en Donostia",
+          "h3": "Trabajo realizado #1",
+          "p": "Reforma completa de pintura interior en una vivienda familiar con paredes castigadas por uso y pequeños desconchados en techos. Se realizó saneado previo, reparación de fisuras y aplicación de acabado lavable para facilitar mantenimiento. El resultado mejoró luminosidad y uniformidad de todo el piso, manteniendo la vivienda operativa durante la obra con una planificación por estancias.",
+          "cta_text": "Quiero un resultado similar",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura de portal y escalera comunitaria en Donostia",
+          "img_title": "Comunidad en Donostia",
+          "h3": "Trabajo realizado #2",
+          "p": "Intervención en portal y caja de escalera de comunidad con alto tránsito diario. Se prepararon zonas de roce, se eligió pintura resistente al uso continuo y se ejecutó por fases para no bloquear accesos. Este trabajo permitió renovar imagen del edificio y mejorar conservación de superficies comunes con una solución más duradera y fácil de limpiar.",
+          "cta_text": "Solicitar valoración para mi comunidad",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    },
+    {
+      "h2": "Andoain",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura de cocina y salón en Andoain",
+          "img_title": "Vivienda en Andoain",
+          "h3": "Trabajo realizado #1",
+          "p": "Proyecto de actualización de salón y cocina en una vivienda de Andoain con objetivo de ganar claridad y uniformidad visual. Se retiraron zonas con pintura degradada, se regularizó absorción y se aplicó un esquema cromático neutro de alta cobertura. La intervención se completó en plazos ajustados sin comprometer limpieza ni calidad de remates en encuentros y techos.",
+          "cta_text": "Consultar presupuesto para vivienda",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Recuperación de barandilla de madera en Andoain",
+          "img_title": "Restauración de madera en Andoain",
+          "h3": "Trabajo realizado #2",
+          "p": "Restauración de barandilla y elementos de madera interior con desgaste por paso del tiempo. Se saneó la superficie, se realizó lijado técnico y se aplicó protección final adaptada al uso diario de la vivienda. La pieza recuperó estabilidad y presencia sin perder su carácter original, reduciendo además el riesgo de deterioro prematuro por humedad ambiental.",
+          "cta_text": "Quiero restaurar una pieza de madera",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    },
+    {
+      "h2": "Lasarte-Oria",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura exterior de balcón en Lasarte-Oria",
+          "img_title": "Balcón renovado en Lasarte-Oria",
+          "h3": "Trabajo realizado #1",
+          "p": "Renovación de balcones expuestos a lluvia y orientación de sol directo en una vivienda de Lasarte-Oria. Se ejecutó limpieza profunda, reparación de puntos debilitados y aplicación de sistema exterior de alta resistencia. El trabajo mejoró imagen de fachada y reforzó la protección de superficies frente a intemperie, evitando desconchados que se repetían cada temporada.",
+          "cta_text": "Necesito renovar mi balcón",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura integral de local comercial en Lasarte-Oria",
+          "img_title": "Local comercial en Lasarte-Oria",
+          "h3": "Trabajo realizado #2",
+          "p": "Pintura integral de local comercial con necesidad de minimizar tiempos de cierre al público. Se planificó por franjas horarias y se adaptó el proceso para mantener zonas operativas mientras avanzaba la obra. Se consiguió un acabado uniforme, moderno y resistente al uso intensivo, alineado con la imagen de marca del negocio y su actividad diaria.",
+          "cta_text": "Planificar pintura para mi local",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    },
+    {
+      "h2": "Usurbil",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura de zonas comunes en Usurbil",
+          "img_title": "Comunidad en Usurbil",
+          "h3": "Trabajo realizado #1",
+          "p": "Actuación en zonas comunes de comunidad residencial en Usurbil, incluyendo portal, rellanos y pasillos de acceso a viviendas. Se reforzaron áreas de mayor roce y se seleccionó pintura de fácil limpieza para mantenimiento posterior. El proyecto se ejecutó por fases, con comunicación previa a vecinos, logrando una mejora visible de imagen sin interferir de forma crítica en el tránsito habitual.",
+          "cta_text": "Solicitar propuesta para comunidad",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Recuperación de puerta de madera en Usurbil",
+          "img_title": "Restauración de puerta en Usurbil",
+          "h3": "Trabajo realizado #2",
+          "p": "Recuperación de puerta principal de madera con desgaste por exposición y uso continuo. Se eliminó acabado deteriorado, se repararon pequeñas imperfecciones y se aplicó protección específica para exteriores. La intervención permitió conservar la pieza original y mejorar su rendimiento frente a humedad y variaciones térmicas, con un acabado final equilibrado y coherente con la fachada.",
+          "cta_text": "Valorar restauración de madera",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    },
+    {
+      "h2": "Orio",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura de vivienda cerca de zona costera en Orio",
+          "img_title": "Vivienda en Orio",
+          "h3": "Trabajo realizado #1",
+          "p": "Renovación de pintura interior en vivienda próxima a entorno costero en Orio, donde la humedad ambiental influía en el estado de paredes. Se realizó preparación técnica del soporte, corrección de zonas sensibles y aplicación de sistema compatible con ese contexto. El resultado fue una mejora clara de uniformidad y estabilidad, reduciendo aparición de marcas y problemas recurrentes en estancias críticas.",
+          "cta_text": "Quiero revisar mi vivienda",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura exterior de fachada en Orio",
+          "img_title": "Fachada renovada en Orio",
+          "h3": "Trabajo realizado #2",
+          "p": "Proyecto de pintura de fachada con necesidad de mejorar protección frente a exposición exterior constante. Se abordó limpieza inicial, saneado de zonas degradadas y aplicación por capas para asegurar adherencia y resistencia. La fachada recuperó presencia visual y mejor comportamiento frente a intemperie, evitando soluciones rápidas que en este tipo de entorno suelen deteriorarse de forma acelerada.",
+          "cta_text": "Consultar pintura de fachada",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    },
+    {
+      "h2": "Zarautz",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Pintura de garaje comunitario en Zarautz",
+          "img_title": "Garaje en Zarautz",
+          "h3": "Trabajo realizado #1",
+          "p": "Intervención en garaje comunitario de Zarautz con superficies castigadas por roce, suciedad y humedad. Se eligió un sistema de pintura adaptado a uso intensivo y mantenimiento periódico, priorizando resistencia y facilidad de limpieza. El trabajo mejoró lectura visual del espacio, reforzó protección de paramentos y permitió una explotación más cómoda de la zona por parte de los usuarios.",
+          "cta_text": "Necesito pintar un garaje",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Restauración de mueble antiguo en Zarautz",
+          "img_title": "Mueble recuperado en Zarautz",
+          "h3": "Trabajo realizado #2",
+          "p": "Restauración completa de mueble antiguo con valor sentimental para la familia propietaria. Se repararon uniones, se estabilizó la estructura y se aplicó acabado final respetando su estética original. Esta intervención devolvió funcionalidad a la pieza y la integró de nuevo en la vivienda con un resultado duradero, equilibrado y coherente con el estilo del entorno doméstico.",
+          "cta_text": "Quiero recuperar un mueble",
+          "cta_icon_alt": "Ir a contacto",
+          "cta_icon_title": "Contactar"
+        }
+      ]
+    }
+  ]
 }

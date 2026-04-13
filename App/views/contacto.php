@@ -52,11 +52,11 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
 
     <!-- HERO -->
     <header>
-        <h1>Contacto y presupuesto</h1>
+        <h1><?= $hero_h1 ?? '' ?></h1>
         <div>
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="Contacto para servicios de pintura y restauración" title="Pedir presupuesto con Patxi">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
         </div>
-        <a href="<?= $contactPhone ?>" class="boton">Llamar ahora</a>
+        <a href="<?= $contactPhone ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
     </header>
 
     <main>
@@ -64,16 +64,16 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
         <section>
             <div class="h2Especial">
                 <span></span>
-                <h2>Datos de contacto</h2>
+                <h2><?= $section1_h2 ?? '' ?></h2>
             </div>
 
             <!-- intro -->
             <!-- artículo 05 -->
             <article class="art05">
-                <h3>Artículo 05</h3>
-                <p>Si necesitas pintar una vivienda, renovar zonas comunes o restaurar madera, puedes contactar directamente conmigo y te responderé lo antes posible. Trabajo con presupuestos claros, explicación previa de la intervención y una planificación realista para que sepas desde el principio qué se hará y en qué plazos.</p>
-                <p>Puedes escribirme por correo, llamarme por teléfono o enviarme el formulario para revisar tu caso con más detalle. Si me compartes fotos, ubicación y tipo de trabajo, podré orientarte mejor desde el primer contacto.</p>
-                <a href="#hitoForm" class="boton">Contactar</a>
+                <h3><?= $art05_h3 ?? '' ?></h3>
+                <p><?= $art05_p1 ?? '' ?></p>
+                <p><?= $art05_p2 ?? '' ?></p>
+                <a href="#hitoForm" class="boton"><?= $art05_cta_text ?? '' ?></a>
             </article>
             
         </section>
@@ -81,22 +81,22 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
         <section>
             <div class="h2Especial">
                 <span></span>
-                <h2>Cuéntame qué necesitas</h2>
+                <h2><?= $section2_h2 ?? '' ?></h2>
             </div>
 
             <article class="art01">
-                <img src="https://dummyimage.com/1000x700" alt="Consulta para trabajo de pintura" title="Trabajo de pintura">
+                <img src="https://dummyimage.com/1000x700" alt="<?= $art01_1_img_alt ?? '' ?>" title="<?= $art01_1_img_title ?? '' ?>">
                 <div>
-                    <h3>Trabajo de pintura</h3>
-                    <p>Indícame si se trata de vivienda, comunidad, local o garaje, el estado de las superficies y el tipo de acabado que buscas. Con esa información te podré orientar sobre el enfoque más adecuado y preparar una propuesta ajustada.</p>
+                    <h3><?= $art01_1_h3 ?? '' ?></h3>
+                    <p><?= $art01_1_p ?? '' ?></p>
                 </div>
             </article>
 
             <article class="art01 upsidedown">
-                <img src="https://dummyimage.com/1000x700" alt="Consulta para restauración de madera" title="Trabajo de restauración">
+                <img src="https://dummyimage.com/1000x700" alt="<?= $art01_2_img_alt ?? '' ?>" title="<?= $art01_2_img_title ?? '' ?>">
                 <div>
-                    <h3>Trabajo de restauración</h3>
-                    <p>Si quieres recuperar un mueble, una puerta o una pieza de madera, cuéntame su estado actual y el resultado que esperas. Te explicaré qué opciones de restauración son viables y qué solución encaja mejor en tu caso.</p>
+                    <h3><?= $art01_2_h3 ?? '' ?></h3>
+                    <p><?= $art01_2_p ?? '' ?></p>
                 </div>
             </article>
         </section>

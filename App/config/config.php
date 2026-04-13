@@ -48,14 +48,14 @@ $arrayRutasGet = [
         ],
 
 
-        '/es/showroom' => [
-            'view'      => '/views/templates.php',
-            'content'   => 'templates'
-        ],
-        // '/es/terminos-legales' => [
-        //     'view'      => '/views/terminos.php',
-        //     'content'   => 'terminos'
+        // '/es/showroom' => [
+        //     'view'      => '/views/templates.php',
+        //     'content'   => 'templates'
         // ],
+        '/es/terminos-legales' => [
+            'view'      => '/views/terminos.php',
+            'content'   => 'terminos'
+        ],
         // '/es/gracias' => [
         //     'view'      => '/views/gracias.php',
         //     'content'   => 'gracias'
@@ -120,10 +120,10 @@ $arrayRutasGet = [
         //     'view'      => '/views/templates.php',
         //     'content'   => 'templates'
         // ],
-        // '/eu/legezko-terminoak' => [
-        //     'view'      => '/views/terminos.php',
-        //     'content'   => 'terminos'
-        // ],
+        '/eu/legezko-terminoak' => [
+            'view'      => '/views/terminos.php',
+            'content'   => 'terminos'
+        ],
         // '/eu/eskerrik-asko' => [
         //     'view'      => '/views/gracias.php',
         //     'content'   => 'gracias'

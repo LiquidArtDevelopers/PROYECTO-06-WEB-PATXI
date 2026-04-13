@@ -2,147 +2,183 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/productos</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/restaurador-muebles-madera</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/productos"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/zurezko-altzarien-zaharberritzailea"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/restaurador-muebles-madera"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/zurezko-altzarien-zaharberritzailea"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/produktuak</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/zurezko-altzarien-zaharberritzailea</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/produktuak"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/zurezko-altzarien-zaharberritzailea"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/restaurador-muebles-madera"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/zurezko-altzarien-zaharberritzailea"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/productos/panaderia</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/pintura</loc>
+        <lastmod>2026-04-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria"/>
+    </url>
+    <url>
+        <loc>https://patxi-pintor.com/eu/margolaria</loc>
+        <lastmod>2026-04-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria"/>
+    </url>
+    <url>
+        <loc>https://patxi-pintor.com/es/pintura/pintar-pisos</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/productos/panaderia"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/panaderia"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/okindegia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/zoruak-margotu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/pintar-pisos"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/zoruak-margotu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/produktuak/okindegia</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/margolaria/zoruak-margotu</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/produktuak/okindegia"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/okindegia"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/panaderia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/zoruak-margotu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/pintar-pisos"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/zoruak-margotu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/productos/pasteleria</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/pintura/pintar-balcones-fachadas</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/productos/pasteleria"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/pasteleria"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/goxotegia"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/balkoiak-eta-fatxadak-margotu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/pintar-balcones-fachadas"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/balkoiak-eta-fatxadak-margotu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/produktuak/goxotegia</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/margolaria/balkoiak-eta-fatxadak-margotu</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/produktuak/goxotegia"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/goxotegia"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/pasteleria"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/balkoiak-eta-fatxadak-margotu"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/pintar-balcones-fachadas"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/balkoiak-eta-fatxadak-margotu"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/productos/torrijas</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/pintura/tratamientos-humedad</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/productos/torrijas"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/torrijas"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/torrijak"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/hezetasun-tratamenduak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/tratamientos-humedad"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/hezetasun-tratamenduak"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/produktuak/torrijak</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/margolaria/hezetasun-tratamenduak</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/produktuak/torrijak"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/produktuak/torrijak"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/productos/torrijas"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/margolaria/hezetasun-tratamenduak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/pintura/tratamientos-humedad"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/margolaria/hezetasun-tratamenduak"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/sobre-nosotros</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/contacto</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/sobre-nosotros"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/sobre-nosotros"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/guri-buruz"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/kontaktua"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/contacto"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/kontaktua"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/guri-buruz</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/kontaktua</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/guri-buruz"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/guri-buruz"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/sobre-nosotros"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/kontaktua"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/contacto"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/kontaktua"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/contacto</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/sobre-mi</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/contacto"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/contacto"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/kontaktua"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/niri-buruz"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/sobre-mi"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/niri-buruz"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/kontaktua</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/niri-buruz</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/kontaktua"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/kontaktua"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/contacto"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/niri-buruz"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/sobre-mi"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/niri-buruz"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/es/terminos-legales</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/es/trabajos-realizados</loc>
+        <lastmod>2026-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/egindako-lanak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/trabajos-realizados"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/egindako-lanak"/>
+    </url>
+    <url>
+        <loc>https://patxi-pintor.com/eu/egindako-lanak</loc>
+        <lastmod>2026-04-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/egindako-lanak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/trabajos-realizados"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/egindako-lanak"/>
+    </url>
+    <url>
+        <loc>https://patxi-pintor.com/es/terminos-legales</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/es/terminos-legales"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/terminos-legales"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/legezko-terminoak"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/legezko-terminoak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/terminos-legales"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/legezko-terminoak"/>
     </url>
     <url>
-        <loc>https://profe-lab-mvc.webda.eus/eu/legezko-terminoak</loc>
-        <lastmod>2026-03-06</lastmod>
+        <loc>https://patxi-pintor.com/eu/legezko-terminoak</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://profe-lab-mvc.webda.eus/eu/legezko-terminoak"/>
-        <xhtml:link rel="alternate" hreflang="eu" href="https://profe-lab-mvc.webda.eus/eu/legezko-terminoak"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://profe-lab-mvc.webda.eus/es/terminos-legales"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://patxi-pintor.com/eu/legezko-terminoak"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://patxi-pintor.com/es/terminos-legales"/>
+        <xhtml:link rel="alternate" hreflang="eu" href="https://patxi-pintor.com/eu/legezko-terminoak"/>
     </url>
 </urlset>

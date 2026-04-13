@@ -1,3 +1,94 @@
 {
-    "seo_image":  "/assets/img/logos/logotipo.svg"
+  "seo_title": "Etxebizitza eta komunitateetarako pintura zerbitzuak",
+  "seo_description": "Barruko eta kanpoko pintura lanak Donostialdeko etxebizitza, komunitate eta gune komunetarako. Gainazalen prestaketa, akabera iraunkorrak eta exekuzio garbia.",
+  "seo_image": "/assets/img/logos/logotipo.svg",
+  "hero_h1": "Etxebizitza eta komunitateetarako pintura zerbitzuak",
+  "hero_img_alt": "Etxebizitza eta komunitateetarako pintura zerbitzu profesionala",
+  "hero_img_title": "Pintura lanak Donostialdean",
+  "hero_cta_text": "Eskatu pintura aurrekontua",
+  "section1_h2": "Zer pintura lan egiten ditudan",
+  "work_items": [
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Pisuetako paretak eta sabaiak margotzea",
+      "img_title": "Barruko pintura",
+      "h3": "Pisuak, paretak eta sabaiak margotzea",
+      "p": "Barruko pintura lanak egiten ditut pisu osoetan eta bizitzen ari diren etxebizitzetan, plangintza eragozpenak murrizteko eta lan erritmo ordenatua mantentzeko egokituz. Pintura aplikatu aurretik hormen eta sabaien egoera berrikusten dut, irregulartasun txikiak zuzentzeko, itsaspena hobetzeko eta oinarri uniformea lortzeko. Aurretiko fase horrek bereizten du iraungo duen emaitza eta denbora gutxian hondatzen den akabera. Nire helburua da gela bakoitza ikusmen aldetik orekatua, argitsua eta etxebizitzaren eguneroko erabilerarako prestatua geratzea.",
+      "href": "/eu/margolaria/zoruak-margotu",
+      "cta_text": "Ikusi zoruak margotzeko zerbitzua",
+      "cta_icon_alt": "Zoruak margotzera joan",
+      "cta_icon_title": "Zoruak margotu"
+    },
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Balkoiak, fatxadak eta garajeak margotzea",
+      "img_title": "Kanpoko pintura",
+      "h3": "Balkoiak, fatxadak eta garajeak margotzea",
+      "p": "Kanpoko gainazaletan eta eremu esposatuetan ere egiten dut lan, non eskakizun teknikoa handiagoa den euriagatik, tenperatura aldaketengatik eta etengabeko higaduragatik. Balkoietan, fatxadetan eta garajeetan pintura sistema euskarriaren eta esposizio mailaren arabera aukeratzen dut, babesa eta iraunkortasuna hobetzeko. Ez da irudia berritzea bakarrik: ondo planteatutako esku-hartze batek gainazala kontserbatzen laguntzen du eta etorkizuneko mantentze kostuak murrizten ditu. Horregatik uztartzen ditut aurretiko prestaketa, aplikazio zaindua eta akaberen kontrola lanaren fase bakoitzean.",
+      "href": "/eu/margolaria/balkoiak-eta-fatxadak-margotu",
+      "cta_text": "Ikusi balkoiak eta fatxadak",
+      "cta_icon_alt": "Balkoi eta fatxadetara joan",
+      "cta_icon_title": "Balkoiak eta fatxadak"
+    },
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Maiz erabiltzen diren eremuak margotzea",
+      "img_title": "Trafiko handiko gainazalak",
+      "h3": "Maiz erabiltzen diren gainazal eta eremuak margotzea",
+      "p": "Trafiko handiko, marruskadura etengabeko edo erabilera intentsiboko eremuetan jarduten dut, hala nola korridoreetan, eskaileretan, atarietan eta gune komunetan. Kasu horietan ez da nahikoa gainazala estaltzea: erresistentzia, garbitzeko erraztasuna eta akaberak denborarekin izango duen portaera baloratu behar dira. Materialak eta aplikazio prozesua behar horien arabera definitzen ditut, goiztiar berriz margotzeak saihesteko eta irudi zaindua denbora gehiagoz mantentzeko. Horrela, espazioak maila praktikoan ondo funtzionatzen du, ingurunearekin bat datorren estetikari uko egin gabe.",
+      "href": "/eu/margolaria/hezetasun-tratamenduak",
+      "cta_text": "Ikusi hezetasun tratamenduak",
+      "cta_icon_alt": "Hezetasun tratamenduetara joan",
+      "cta_icon_title": "Hezetasun tratamenduak"
+    }
+  ],
+  "section2_h2": "Gainazalen tratamenduak eta prestaketa",
+  "surface_items": [
+    {
+      "h3": "Hezetasunak eta horma esposatuen babesa",
+      "p1": "Horma batek hezetasun orbanak, azalaren askatzea edo itsaspen galera erakusten dituenean, lehentasuna arazoaren benetako irismena identifikatzea da margotu aurretik. Kaltetutako gainazalean saneatze eta prestaketa sekuentzia batekin jarduten dut, euskarria egonkortzeko eta kaltea denbora gutxian berriro ager ez dadin. Esku-hartze hori funtsezkoa da eremu esposatuetan edo aireztapen mugatua duten tokietan, non zuzenean berriz margotzeak maiz huts egiten duen. Fase hori ondo lantzeak emaitza bisuala hobetzen du eta denboraldi bakoitzean horma bera berriro egitea saihesten du.",
+      "p2": "Gainera, erabilera ingurunera egokitutako babes produktuak aukeratzen ditut, azken pinturak bere errendimendua eta itxura denbora gehiagoz mantendu ditzan. Helburua da kausa ikusgarria konpontzea eta gainazala akabera iraunkorrerako prest uztea.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Horman hezetasun tratamendua",
+      "img_title": "Hezetasunak eta gainazalen babesa"
+    },
+    {
+      "h3": "Gotelé kentzea eta leuntzea",
+      "p1": "Etxebizitza bat horma leunekin eguneratu nahi baduzu, gotelé kentzea eta leuntzea egiten dut, teknika dagoen erliebera eta paramentuaren egoerara egokituz. Lan honek zehaztasuna eta jarraitutasuna eskatzen ditu gainazal osoan, etenak, uhinak edo pañoen arteko trantsizio irregularrak saihesteko. Horregatik denbora eskaintzen diot berdintzeari, berrikusteari eta argi arrasez egiaztatzeari pintura fasera igaro aurretik. Leuntze on batek gelaren estetika hobetzeaz gain, mantentzea errazten du eta zabaltasun eta garbitasun bisualaren pertzepzioa indartzen du.",
+      "p2": "Amaitzean, horma aukeratutako kolorea jasotzeko prest geratzen da, akabera finagoak eta uniformeagoak ahalbidetzen dituen oinarri homogeneoarekin. Horrela, aldaketa ez da apaingarria bakarrik, baita espazioaren eguneroko erabilerarako funtzionala ere.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Horma leuntzeko prozesua",
+      "img_title": "Gotelé kentzea eta leuntzea"
+    },
+    {
+      "h3": "Margotu aurreko prestaketa eta saneatzea",
+      "p1": "Aurretiko prestaketa da gutxien ikusten den zatia, baina baita garrantzitsuena ere pintura lan batek epe ertain eta luzean funtziona dezan. Euskarriaren garbiketa, pitzadura txikien zuzenketa, zigilatze puntuala eta xurgapen desberdineko eremuen erregularizazioa barne hartzen ditu. Oinarri hori ondo konpontzen ez bada, akaberak uniformetasuna galtzen du, markak agertzen dira eta iraunkortasuna nabarmen jaisten da. Horregatik egituratzen dut esku-hartze bakoitza lehortze denborekin eta tarteko egiaztapenekin, gainazalak egoera onean dirudienean ere.",
+      "p2": "Ikuspegi horrekin, azken aplikazioa oinarri egonkor baten gainean egiten da, estaldura, itsaspena eta eguneroko erabilerarekiko erresistentzia hobetuz. Emaitza akabera garbiagoa, erregularragoa eta goiztiar ukituen behar txikiagokoa da.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Margotu aurretik gainazalak prestatzea eta saneatzea",
+      "img_title": "Margotu aurreko prestaketa"
+    }
+  ],
+  "section3_h2": "Aplikazioak espazio motaren arabera",
+  "section3_p": "Espazio bakoitzak irtenbide desberdina eskatzen du, eta horregatik pintura zerbitzua erabilera testuinguru errealera, trafiko mailara eta espero den mantentzera egokitzen dut. Ez da gauza bera bizitoki batean jardutea, eguneroko zirkulazioa duen komunitate batean edo hezetasun eta marruskadura etengabearen menpe dagoen garaje batean. Nire lan egiteko moduak hasierako diagnostikoa, proposamen tekniko argia eta exekuzio ordenatua uztartzen ditu, emaitza estetikoa, sendoa eta eskuragarri dagoen aurrekontuaren barruan bideragarria izan dadin. Metodologia horrek irizpidez erabakiak hartzea eta bezeroaren behar zehatzari erantzuten ez dioten lan generikoak saihestea ahalbidetzen du.",
+  "space_items": [
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Etxebizitza partikularretarako pintura",
+      "h3": "Etxebizitza partikularrak",
+      "p": "Pisuak eta etxeak geletan antolatuta margotzen ditut, zure errutinan eragina murrizteko, obran ordena mantentzeko eta egunerokorako pentsatutako akabera uniformeak entregatzeko."
+    },
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Komunitate eta gune komunetarako pintura",
+      "h3": "Komunitateak eta gune komunak",
+      "p": "Atarietan, eskaileretan eta espazio partekatuetan jarduten dut sarbideak eta denborak koordinatuz, eragozpenak minimizatzeko, eraikinaren irudia hobetzeko eta gainazalak erabilera intentsiboaren aurrean kontserbatzeko."
+    },
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Garaje eta kanpoaldeetarako pintura",
+      "h3": "Garajeak eta kanpoko espazioak",
+      "p": "Garajeetan eta kanpoko eremuetan baldintza zorrotzetara egokitutako pintura sistemekin jarduten dut, babesa, garbitasuna eta iraunkortasuna lehenetsiz espazioa funtzional eta ondo kontserbatuta mantentzeko."
+    }
+  ]
 }

@@ -1,5 +1,161 @@
 {
-  "seo_title": "Panadería Aginaga | Obrador de pan y pastelería artesanal",
-  "seo_description": "Panadería y pastelería artesanal en Aginaga desde 1925. Conoce a nuestro equipo, descubre nuestros productos y disfruta de un trato cercano en cada visita.",
-  "seo_image": "/assets/img/logos/logotipo.svg"
+  "seo_title": "Egindako pintura eta zaharberritze lanak | Patxi",
+  "seo_description": "Patxik Donostian, Andoainen, Lasarte-Orian, Usurbilen, Orion eta Zarautzen egindako pintura eta zurezko zaharberritze lanen adibideak.",
+  "seo_image": "/assets/img/logos/logotipo.svg",
+  "hero_h1": "Egindako lanak",
+  "hero_logo_alt": "Donostialdean egindako pintura eta zaharberritze lanak",
+  "hero_logo_title": "Patxiren benetako proiektuak",
+  "hero_cta_text": "Eskatu antzeko aurrekontu bat",
+  "expertise_sections": [
+    {
+      "h2": "Donostia - San Sebastián",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Donostiako etxebizitza batean barruko pintura lana",
+          "img_title": "Etxebizitza partikularra Donostian",
+          "h3": "Egindako lana #1",
+          "p": "Barruko pintura berritze osoa familia etxebizitza batean, erabileragatik kaltetutako hormekin eta sabaian ezkatatze txikiekin. Aurretiko saneatzea, pitzaduren konponketa eta mantentzea errazteko akabera garbigarria aplikatu ziren. Emaitzak pisu osoaren argitasuna eta uniformetasuna hobetu zituen, obran zehar etxebizitza erabilgarri mantenduz gelaka egindako plangintzari esker.",
+          "cta_text": "Antzeko emaitza nahi dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Donostiako komunitate bateko atari eta eskaileraren pintura",
+          "img_title": "Komunitatea Donostian",
+          "h3": "Egindako lana #2",
+          "p": "Eguneroko trafiko handia duen komunitate bateko atarian eta eskailera kaxan egindako esku-hartzea. Marruskadura eremuak prestatu ziren, erabilera jarraiturako pintura erresistentea aukeratu zen eta lana faseka egin zen sarbideak ez blokeatzeko. Lan honek eraikinaren irudia berritzeko eta gainazal komunen kontserbazioa hobetzeko aukera eman zuen, irtenbide iraunkorrago eta garbitzeko errazago batekin.",
+          "cta_text": "Nire komunitaterako balorazioa eskatu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    },
+    {
+      "h2": "Andoain",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Andoaingo sukalde eta egongela margotzea",
+          "img_title": "Etxebizitza Andoainen",
+          "h3": "Egindako lana #1",
+          "p": "Andoaingo etxebizitza bateko egongela eta sukaldea eguneratzeko proiektua, argitasuna eta uniformetasun bisuala irabazteko helburuarekin. Pintura hondatua zuten eremuak kendu ziren, xurgapena erregularizatu zen eta estaldura handiko eskema kromatiko neutroa aplikatu zen. Esku-hartzea epe estuetan osatu zen, garbitasuna eta sabaien eta elkarguneen erremateen kalitatea arriskuan jarri gabe.",
+          "cta_text": "Etxebizitzarako aurrekontua kontsultatu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Andoaingo zurezko baranda berreskuratzea",
+          "img_title": "Zurezko zaharberritzea Andoainen",
+          "h3": "Egindako lana #2",
+          "p": "Denboraren poderioz higatutako barruko baranda eta zurezko elementuen zaharberritzea. Gainazala saneatu zen, lixatze teknikoa egin zen eta etxebizitzaren eguneroko erabilerara egokitutako azken babesa aplikatu zen. Piezak egonkortasuna eta presentzia berreskuratu zituen bere jatorrizko izaera galdu gabe, eta inguruko hezetasunagatik goiz hondatzeko arriskua ere murriztu zen.",
+          "cta_text": "Zurezko pieza bat zaharberritu nahi dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    },
+    {
+      "h2": "Lasarte-Oria",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Lasarte-Oriako balkoi baten kanpoko pintura",
+          "img_title": "Balkoi berritua Lasarte-Orian",
+          "h3": "Egindako lana #1",
+          "p": "Euriaren eta eguzki zuzenaren eraginpean zeuden balkoien berritzea Lasarte-Oriako etxebizitza batean. Garbiketa sakona, puntu ahulduen konponketa eta erresistentzia handiko kanpoko sistema baten aplikazioa egin ziren. Lanak fatxadaren irudia hobetu zuen eta gainazalen babesa indartu zuen eguraldiaren aurrean, denboraldi bakoitzean errepikatzen ziren ezkatatzeak saihestuz.",
+          "cta_text": "Nire balkoia berritu behar dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Lasarte-Oriako lokal komertzial baten pintura osoa",
+          "img_title": "Lokal komertziala Lasarte-Orian",
+          "h3": "Egindako lana #2",
+          "p": "Publikoari itxita egoteko denbora minimizatu behar zuen lokal komertzial baten pintura integrala. Ordutegi tarteen arabera planifikatu zen eta prozesua egokitu zen obrak aurrera egin bitartean eremu operatiboak mantentzeko. Akabera uniformea, modernoa eta erabilera intentsiboarekiko erresistentea lortu zen, negozioaren marka irudiarekin eta eguneroko jarduerarekin bat etorriz.",
+          "cta_text": "Nire lokalerako pintura planifikatu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    },
+    {
+      "h2": "Usurbil",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Usurbilgo gune komunetako pintura",
+          "img_title": "Komunitatea Usurbilen",
+          "h3": "Egindako lana #1",
+          "p": "Usurbilgo bizitegi komunitate bateko gune komunetan egindako jarduketa, ataria, eskailera-buruak eta etxebizitzetarako sarbide korridoreak barne. Marruskadura handieneko eremuak indartu ziren eta ondorengo mantentzerako garbitzeko erraza den pintura hautatu zen. Proiektua faseka gauzatu zen, auzokideei aurretik jakinarazita, ohiko joan-etorrian modu kritikoan eragin gabe irudi hobekuntza nabaria lortuz.",
+          "cta_text": "Komunitaterako proposamena eskatu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Usurbilgo zurezko atea berreskuratzea",
+          "img_title": "Ate zaharberritzea Usurbilen",
+          "h3": "Egindako lana #2",
+          "p": "Esposizioagatik eta erabilera jarraituagatik higatutako zurezko ate nagusiaren berreskurapena. Hondatutako akabera kendu zen, akats txikiak konpondu ziren eta kanpoaldeetarako babes espezifikoa aplikatu zen. Esku-hartzeak jatorrizko pieza kontserbatzeko eta hezetasunaren eta aldaketa termikoen aurrean haren errendimendua hobetzeko aukera eman zuen, fatxadarekin bat zetorren azken akabera orekatuarekin.",
+          "cta_text": "Zurezko zaharberritzea baloratu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    },
+    {
+      "h2": "Orio",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Kostaldetik gertu dagoen Orioko etxebizitza baten pintura",
+          "img_title": "Etxebizitza Orion",
+          "h3": "Egindako lana #1",
+          "p": "Orioko kostalde inguruko etxebizitza batean barruko pintura berritzea, non inguruko hezetasunak hormen egoeran eragina zuen. Euskarriaren prestaketa teknikoa, eremu sentikorren zuzenketa eta testuinguru horrekin bateragarria zen sistema baten aplikazioa egin ziren. Emaitza uniformetasun eta egonkortasun hobekuntza argia izan zen, gela kritikoetan marken eta arazo errepikarien agerpena murriztuz.",
+          "cta_text": "Nire etxebizitza berrikusi nahi dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Orioko fatxada baten kanpoko pintura",
+          "img_title": "Fatxada berritua Orion",
+          "h3": "Egindako lana #2",
+          "p": "Kanpoko esposizio jarraituaren aurrean babesa hobetzeko premia zuen fatxada pintura proiektua. Hasierako garbiketa, hondatutako eremuen saneatzea eta geruzaz geruzako aplikazioa egin ziren itsaspena eta erresistentzia ziurtatzeko. Fatxadak presentzia bisuala eta eguraldiaren aurreko portaera hobea berreskuratu zituen, ingurune mota honetan azkar hondatu ohi diren irtenbide azkarrak saihestuz.",
+          "cta_text": "Fatxada pintura kontsultatu",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    },
+    {
+      "h2": "Zarautz",
+      "items": [
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Zarautzko komunitate garaje baten pintura",
+          "img_title": "Garajea Zarautzen",
+          "h3": "Egindako lana #1",
+          "p": "Zarautzko komunitate garaje batean egindako esku-hartzea, marruskadurak, zikinkeriak eta hezetasunak kaltetutako gainazalekin. Erabilera intentsiborako eta mantentze periodikorako egokitutako pintura sistema aukeratu zen, erresistentzia eta garbitzeko erraztasuna lehenetsiz. Lanak espazioaren irakurketa bisuala hobetu zuen, paramentuen babesa indartu zuen eta erabiltzaileentzat eremuaren erabilera erosoagoa ahalbidetu zuen.",
+          "cta_text": "Garaje bat margotu behar dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        },
+        {
+          "img_src": "https://dummyimage.com/1000x700",
+          "img_alt": "Zarautzko altzari zahar baten zaharberritzea",
+          "img_title": "Altzari berreskuratua Zarautzen",
+          "h3": "Egindako lana #2",
+          "p": "Jabe familiaren balio sentimentala zuen altzari zahar baten zaharberritze osoa. Loturak konpondu ziren, egitura egonkortu zen eta azken akabera aplikatu zen haren jatorrizko estetika errespetatuz. Esku-hartze honek funtzionaltasuna itzuli zion piezari eta berriro etxebizitzan integratu zuen emaitza iraunkor, orekatu eta etxeko ingurunearen estiloarekin koherente batekin.",
+          "cta_text": "Altzari bat berreskuratu nahi dut",
+          "cta_icon_alt": "Kontaktura joan",
+          "cta_icon_title": "Harremanetan jarri"
+        }
+      ]
+    }
+  ]
 }

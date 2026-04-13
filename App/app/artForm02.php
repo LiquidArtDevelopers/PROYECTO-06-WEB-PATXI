@@ -111,10 +111,10 @@ if(comprobarCaracteres($mensaje, 4, 200)){
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $web = $_ENV['RUTA'];
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Patxi Pintor Web";
 $correoDestinatario = $_ENV['EMAIL_ADMIN'];
-$nombreDestinatario= "Admin de la web";
-$asunto = "Has recibido una nueva consulta en la web de $nombre";
+$nombreDestinatario= "Patxi";
+$asunto = "Nueva consulta en la web de Patxi: $nombre";
 
 // recoger el template con los placeholders
 $html = file_get_contents($basePath . "/App/app/templates/artForm02.html");
@@ -125,15 +125,15 @@ $vars = [
     '{web}'                 => $web,
     '{url}'                 => $url,
     '{asunto}'              => $asunto,
-    '{aviso}'               => "Has recibido un correo pidiendo información de $nombre. A continuación sus datos. Ha aceptado los términos de privacidad. ",
-    '{explicacion}'         => "Has recibido un correo pidiendo información de $nombre. A continuación sus datos. Ha aceptado los términos de privacidad. ",
-    '{contexto}'            => 'El cliente es ',
-    '{razon}'               => 'Si quieres responderle, escríbele al correo que facilita a continuación',
+    '{aviso}'               => "Has recibido una consulta de $nombre desde la web de Patxi. Ha aceptado los términos de privacidad.",
+    '{explicacion}'         => "Has recibido una consulta desde la web de Patxi. Revisa los datos para valorar si necesita pintura, restauración de madera o presupuesto.",
+    '{contexto}'            => 'Nueva consulta de ',
+    '{razon}'               => 'Puedes responder directamente al correo que ha facilitado y revisar el mensaje para preparar una respuesta ajustada.',
     '{nombre}'              => $nombre,
     '{telefono}'            => $telefono,
     '{email}'               => $email,
     '{mensaje}'             => $mensaje,
-    '{responder}'           => 'Procura responder dentro del plazo de 2 días',
+    '{responder}'           => 'Procura responder en un plazo máximo de 2 días laborables.',
     '{fecha}'               => $fecha,
 
 ];
@@ -145,10 +145,10 @@ include $basePath . "/App/app/envioPhpMailer.php";
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $web = $_ENV['RUTA'];
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Patxi Pintor Web";
 $correoDestinatario = $email;
 $nombreDestinatario= $nombre;
-$asunto = "$nombre, hemos recibido tu consulta.";
+$asunto = "$nombre, hemos recibido tu consulta | Patxi";
 
 // recoger el template con los placeholders
 $html = file_get_contents($basePath . "/App/app/templates/artForm02.html");
@@ -159,15 +159,15 @@ $vars = [
     '{web}'                 => $web,
     '{url}'                 => $url,
     '{asunto}'              => $asunto,
-    '{aviso}'               => "$nombre, hemos recibido satisfactóriamente tu consulta.",
-    '{explicacion}'         => "En breve nos pondremos en contacto contigo.",
-    '{contexto}'            => 'Aquí están los datos que nos has facilitado',
-    '{razon}'               => 'Consulta a la Panadería Aginaga',
+    '{aviso}'               => "$nombre, hemos recibido correctamente tu consulta para Patxi.",
+    '{explicacion}'         => "Gracias por contactar con Patxi. Revisaré tu mensaje y te responderé lo antes posible para valorar el trabajo de pintura o restauración.",
+    '{contexto}'            => 'Gracias por escribir, ',
+    '{razon}'               => 'Consulta enviada a Patxi sobre pintura, restauración o presupuesto.',
     '{nombre}'              => $nombre,
     '{telefono}'            => $telefono,
     '{email}'               => $email,
     '{mensaje}'             => $mensaje,
-    '{responder}'           => 'Procuraremos responderte en el plazo de 2 días laborales',
+    '{responder}'           => 'Te responderé lo antes posible con una orientación clara sobre el siguiente paso.',
     '{fecha}'               => $fecha,
 ];
 
@@ -213,15 +213,10 @@ if($con === false){
 // 5 redirigir a la página index para mostrar un mensaje de envío ok, en vez del formulario
 // urlencode evita romper la cabecera si el nombre lleva espacios o acentos
 
-enviarRespuestaAsincrona("Gracias por escribirnos, $nombre. En breve te contactaremos", false, $nombre); 
+enviarRespuestaAsincrona("Gracias por escribirme, $nombre. En breve te contactaré", false, $nombre);
 
 
 ?>
-
-
-
-
-
 
 
 

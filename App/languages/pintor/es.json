@@ -1,3 +1,94 @@
 {
-    "seo_image":  "/assets/img/logos/logotipo.svg"
+  "seo_title": "Servicios de pintura para viviendas y comunidades",
+  "seo_description": "Trabajos de pintura interior y exterior para viviendas, comunidades y zonas comunes en Donostialdea. Preparación de superficies, acabados duraderos y ejecución limpia.",
+  "seo_image": "/assets/img/logos/logotipo.svg",
+  "hero_h1": "Servicios de pintura para viviendas y comunidades",
+  "hero_img_alt": "Servicio profesional de pintura para viviendas y comunidades",
+  "hero_img_title": "Trabajos de pintura en Donostialdea",
+  "hero_cta_text": "Solicitar presupuesto de pintura",
+  "section1_h2": "Qué trabajos de pintura realizo",
+  "work_items": [
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Pintura de pisos paredes y techos",
+      "img_title": "Pintura de interiores",
+      "h3": "Pintura de pisos, paredes y techos",
+      "p": "Realizo trabajos de pintura interior en pisos completos y viviendas habitadas, adaptando la planificación para reducir molestias y mantener un ritmo de trabajo ordenado. Antes de aplicar pintura reviso el estado de paredes y techos para corregir pequeñas irregularidades, mejorar adherencia y conseguir una base uniforme. Esta fase previa marca la diferencia entre un resultado que dura y un acabado que se degrada en poco tiempo. Mi objetivo es que cada estancia quede visualmente equilibrada, luminosa y preparada para el uso diario real de la vivienda.",
+      "href": "/es/pintura/pintar-pisos",
+      "cta_text": "Ver servicio de pintar pisos",
+      "cta_icon_alt": "Ir a pintar pisos",
+      "cta_icon_title": "Pintar pisos"
+    },
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Pintura de balcones fachadas y garajes",
+      "img_title": "Pintura de exteriores",
+      "h3": "Pintura de balcones, fachadas y garajes",
+      "p": "También trabajo en superficies exteriores y zonas expuestas donde la exigencia técnica es mayor por lluvia, cambios de temperatura y desgaste continuo. En balcones, fachadas y garajes selecciono el sistema de pintura según el soporte y el nivel de exposición para mejorar protección y durabilidad. No se trata solo de renovar la imagen: una intervención bien planteada ayuda a conservar la superficie y reduce futuros costes de mantenimiento. Por eso combino preparación previa, aplicación cuidada y control de acabados en cada fase del trabajo.",
+      "href": "/es/pintura/pintar-balcones-fachadas",
+      "cta_text": "Ver balcones y fachadas",
+      "cta_icon_alt": "Ir a balcones y fachadas",
+      "cta_icon_title": "Balcones y fachadas"
+    },
+    {
+      "img_src": "https://dummyimage.com/1000x700",
+      "img_alt": "Pintura de zonas de uso frecuente",
+      "img_title": "Superficies de alto tránsito",
+      "h3": "Pintura de superficies y zonas de uso frecuente",
+      "p": "Intervengo en áreas con mucho tránsito, roces constantes o uso intensivo, como pasillos, escaleras, portales y espacios comunes. En estos casos no basta con cubrir la superficie: hay que valorar resistencia, facilidad de limpieza y comportamiento del acabado con el paso del tiempo. Defino materiales y proceso de aplicación en función de esas necesidades para evitar repintados prematuros y mantener una imagen cuidada durante más tiempo. Esto permite que el espacio funcione bien a nivel práctico sin renunciar a una estética coherente con el entorno.",
+      "href": "/es/pintura/tratamientos-humedad",
+      "cta_text": "Ver tratamientos de humedad",
+      "cta_icon_alt": "Ir a tratamientos de humedad",
+      "cta_icon_title": "Tratamientos de humedad"
+    }
+  ],
+  "section2_h2": "Tratamientos y preparación de superficies",
+  "surface_items": [
+    {
+      "h3": "Humedades y protección de paredes expuestas",
+      "p1": "Cuando una pared presenta manchas, descamación o pérdida de adherencia por humedad, la prioridad es identificar el alcance real del problema antes de pintar. Actúo sobre la superficie afectada con una secuencia de saneado y preparación orientada a estabilizar el soporte y evitar que el daño vuelva a aparecer en poco tiempo. Esta intervención es clave en zonas expuestas o con ventilación limitada, donde un repintado directo suele fallar. Trabajar bien esta fase mejora el resultado visual y evita rehacer la misma pared en cada temporada.",
+      "p2": "Además, selecciono productos de protección acordes al entorno de uso para que la pintura final mantenga su rendimiento y su aspecto más tiempo. El objetivo es resolver la causa visible y dejar una superficie preparada para un acabado duradero.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Tratamiento de humedad en pared",
+      "img_title": "Humedades y protección de superficies"
+    },
+    {
+      "h3": "Eliminación de gotelé y alisado",
+      "p1": "Si quieres actualizar una vivienda con paredes lisas, realizo eliminación de gotelé y alisado adaptando la técnica al relieve existente y al estado del paramento. Este trabajo requiere precisión y continuidad en toda la superficie para evitar cortes, ondas o transiciones irregulares entre paños. Por eso dedico tiempo a nivelar, repasar y verificar luz rasante antes de entrar en fase de pintura. Un buen alisado no solo mejora la estética de la estancia, también facilita el mantenimiento y potencia la percepción de amplitud y limpieza visual.",
+      "p2": "Al finalizar, la pared queda preparada para recibir el color elegido con una base homogénea que permite acabados más finos y uniformes. Así el cambio no es solo decorativo, también funcional para el uso cotidiano del espacio.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Proceso de alisado de pared",
+      "img_title": "Eliminación de gotelé y alisado"
+    },
+    {
+      "h3": "Preparación y saneado antes de pintar",
+      "p1": "La preparación previa es la parte menos visible, pero también la más importante para que un trabajo de pintura funcione a medio y largo plazo. Incluye limpieza de soporte, corrección de pequeñas fisuras, sellado puntual y regularización de zonas con absorción desigual. Si esta base no se resuelve bien, el acabado pierde uniformidad, aparecen marcas y la durabilidad baja de forma notable. Por eso estructuro cada intervención con tiempos de secado y comprobaciones intermedias, incluso cuando la superficie parece estar en buen estado.",
+      "p2": "Con este enfoque, la aplicación final se realiza sobre una base estable que mejora cobertura, adherencia y resistencia al uso diario. El resultado es un acabado más limpio, más regular y con menor necesidad de retoques prematuros.",
+      "img_src": "https://dummyimage.com/1500x900",
+      "img_alt": "Preparación y saneado de superficies antes de pintar",
+      "img_title": "Preparación antes de pintar"
+    }
+  ],
+  "section3_h2": "Aplicaciones según el tipo de espacio",
+  "section3_p": "Cada espacio pide una solución distinta y por eso adapto el servicio de pintura al contexto real de uso, al nivel de tránsito y al mantenimiento esperado. No es lo mismo intervenir en una vivienda habitada que en una comunidad con circulación diaria o en un garaje expuesto a humedad y roce constante. Mi forma de trabajar combina diagnóstico inicial, propuesta técnica clara y ejecución ordenada para que el resultado sea estético, resistente y viable dentro del presupuesto disponible. Esta metodología permite tomar decisiones con criterio y evitar trabajos genéricos que no responden a la necesidad concreta del cliente.",
+  "space_items": [
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Pintura para viviendas particulares",
+      "h3": "Viviendas particulares",
+      "p": "Pinto pisos y casas organizando el trabajo por estancias para reducir impacto en tu rutina, mantener orden durante la obra y entregar acabados uniformes pensados para el día a día."
+    },
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Pintura para comunidades y zonas comunes",
+      "h3": "Comunidades y zonas comunes",
+      "p": "Actúo en portales, escaleras y espacios compartidos coordinando accesos y tiempos para minimizar molestias, mejorar la imagen del edificio y conservar las superficies frente al uso intensivo."
+    },
+    {
+      "img_src": "https://dummyimage.com/50x50",
+      "img_alt": "Pintura para garajes y exteriores",
+      "h3": "Garajes y espacios exteriores",
+      "p": "Intervengo en garajes y áreas exteriores con sistemas de pintura adaptados a condiciones exigentes, priorizando protección, limpieza y durabilidad para mantener el espacio funcional y bien conservado."
+    }
+  ]
 }

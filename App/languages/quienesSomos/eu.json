@@ -1,54 +1,83 @@
 {
-    "seo_title": "Guri buruz | Aginaga Okindegia - Tradizioa 1925etik",
-    "seo_description": "Ezagutu Aginaga Okindegiko profesional taldea. Ia mende bateko okintza tradizioa Aginagako bihotzean, kalitate goreneko artisau produktuak egiten.",
-    "link_canonical": "/eu/guri-buruz",
-    "hero_h1": "Tradizioz okinak gara 1925etik",
-    "hero_logo_alt": "Aginaga Okindegia",
-    "hero_logo_title": "Aginaga Okindegia",
-    "equipo_h2": "Gure profesional taldea",
-    "presentacion_h3": "Arima eta tradizioa duten okin maisuak",
-    "presentacion_p1": "Aginaga Okindegian zazpi hamarkada baino gehiago daramatzagu egunero erretzen, lehen eguneko pasio berarekin. Gure taldea belaunaldiz belaunaldi jasotako jakintza eta berrikuntzari begirako ikuspegia uztartzen dituzten profesionalez osatuta dago, gure lantegia eskualdeko erreferente bihurtu duen tradizioa bizirik mantenduz.",
-    "presentacion_p2": "Okin maisuetatik hasi eta ikasle gazteenetaraino, helburu bera partekatzen dugu: benetakotasuna, kalitatea eta hurbiltasuna transmititzen dituzten artisau ogiak eta gozoak egitea. Gure labeetatik ateratzen den pieza bakoitza talde-lanaren, dedikazioaren eta ofizioarekiko maitasunaren fruitua da.",
-    "presentacion_cta_title": "Jarri gurekin harremanetan",
-    "presentacion_cta": "Jarri gurekin harremanetan",
-    "trato_h3": "Tratu pertsonala eta hurbila",
-    "trato_p1": "Aginaga Okindegian, gure taldea da gure indargunerik handiena. Artisau okintza eta gozogintzaren arteari eskainitako 20 profesional baino gehiagorekin, ia mende bat lehenago hasitako tradizioa bizirik mantentzen dugu. Taldeko kide bakoitzak bere esperientzia eta pasioa jartzen ditu egunero gure bezeroak gozatzen dituzten produktu apartak sortzeko.",
-    "trato_p2": "Etengabeko prestakuntza eta gure ofizioarekiko maitasuna dira kalitate-estandarrik handienak mantentzea ahalbidetzen diguten zutabeak. Hamarkadetako esperientzia duten okin maisuetatik berrikuntzaren espiritua bizirik mantentzen duten ikasle gazteetaraino, denok konpromiso bera partekatzen dugu: artisau produktu onena eskaintzea, tratu hurbil eta pertsonalizatuarekin.",
-    "trato_img_alt": "Gure ofizioarekiko maitasuna",
-    "trato_img_title": "Gure ofizioarekiko maitasuna",
-    "equipo_fichas_h3": "Lanbidez lantegiko artisauak",
-    "ficha_1_nombre": "Mikel Arrizabalaga",
-    "ficha_1_img_alt": "Mikel Arrizabalaga - Okin maisua",
-    "ficha_1_img_title": "Mikel Arrizabalaga",
-    "ficha_1_texto": "30 urte baino gehiagoko esperientzia duen okin maisua. Ore ametan eta euskal ogi tradizionaletan aditua. Bere dedikazioa eta ezagutza dira gure okindegiaren bihotza.",
-    "ficha_2_nombre": "María Etxeberria",
-    "ficha_2_img_alt": "María Etxeberria - Gozogile maisua",
-    "ficha_2_img_title": "María Etxeberria",
-    "ficha_2_texto": "Teknika tradizionalak ukitu berritzaileekin uztartzen dituen gozogile maisua. Bere sormenak gure espezialitate ezagunenetako batzuk sortu ditu.",
-    "ficha_3_nombre": "Jon Lizarraga",
-    "ficha_3_img_alt": "Jon Lizarraga - Opilgintzan aditua",
-    "ficha_3_img_title": "Jon Lizarraga",
-    "ficha_3_texto": "Artisau opilgintzan aditua. Xehetasunekiko duen pasioa eta perfekzio teknikoa gure lantegitik ateratzen den croissant eta opil pieza bakoitzean nabaritzen dira.",
-    "ficha_4_nombre": "Ana Mendizabal",
-    "ficha_4_img_alt": "Ana Mendizabal - Artisau okina",
-    "ficha_4_img_title": "Ana Mendizabal",
-    "ficha_4_texto": "Ogi berezietan eta glutenik gabeko ogietan espezializatutako artisau okina. Berrikuntzarekiko duen konpromisoari esker, gustu eta behar guztietarako produktuak eskaintzen ditugu.",
-    "historia_h2": "1925etik Aginagan",
-    "historia_h3": "Hurbiltasuna eta tradizioa",
-    "historia_p1": "Gure historia 1925ean hasi zen, Arrizabalaga familiak Aginagan bere okindegi txikiaren ateak ireki zituenean. Ordutik, lau belaunaldik bizirik mantendu dute gure artisau espiritua eta kalitatearekiko konpromisoa. Egunero gure produktuak errezeta tradizionalei jarraituz egiten ditugu, jasotako jakintza gaur egungo teknikekin uztartuz.",
-    "historia_card_1_icon_alt": "Historiaren ikonoa",
-    "historia_card_1_icon_title": "Gure historia",
-    "historia_card_1_h4": "Irinaz betetako historia",
-    "historia_card_1_p": "Aginagako ia mende bateko okintza tradizioak bermatzen gaitu. Ezagutu nola familia okindegi txiki bat eskualdeko artisau okintzaren erreferente bihurtu den.",
-    "historia_card_2_icon_alt": "Kalitatearen ikonoa",
-    "historia_card_2_icon_title": "Artisau kalitatea",
-    "historia_card_2_h4": "Kalitaterik oneneko produktuak",
-    "historia_card_2_p": "Lehengairik onenak hautatzen ditugu eta artisau prozesuak mantentzen ditugu, belaunaldiz belaunaldi bereizi gaituen zaporea eta kalitatea bermatzeko.",
-    "historia_card_2_cta": "Gure produktuak",
-    "historia_cta_contacto": "Jarri gurekin harremanetan",
-    "historia_cta_icon_alt": "Terraza dugu kafea hartu ahal izateko",
-    "historia_img_alt": "Terraza dugu kafea hartu ahal izateko",
-    "historia_img_title": "Terraza dugu kafea hartu ahal izateko"
-,
-    "seo_image": "/assets/img/logos/logotipo.svg"
+    "seo_title": "Patxi, pintura eta zaharberritze profesionala",
+    "seo_description": "Ezagutu Patxi, Donostialdeko pintura eta zurezko zaharberritze profesionala. Tratu hurbila, arreta zuzena eta konpromisoa lan bakoitzean.",
+    "seo_image": "/assets/img/logos/logotipo.svg",
+    "link_canonical": "/eu/niri-buruz",
+    "hero_h1": "Patxi, pintura eta zaharberritze profesionala",
+    "hero_logo_alt": "Patxi, Donostialdeko pintura eta zaharberritze espezialista",
+    "hero_logo_title": "Patxi, pintura eta zaharberritze profesionala",
+    "hero_cta_text": "Eskatu aurrekontua",
+    "section1_h2": "Tratu hurbila eta arreta zuzena",
+    "section1_img_alt": "Patxi etxebizitza batean pintura lanak xehetasunez egiten",
+    "section1_img_title": "Arreta zuzena pintura eta zaharberritze proiektu bakoitzean",
+    "section1_p1": "Zurekin aurrez aurre egiten dut lan, bitartekaririk gabe eta lehen bisitatik komunikazio argiarekin. Zure etxebizitza margotu, gune komun bat berritu edo zurezko pieza bat berreskuratu behar baduzu, nire lehentasuna da hasi aurretik urrats bakoitza ulertzea. Euskarriaren egoera berrikusten dut, zein tratamendu komeni den azaltzen dizut eta aurrekontu xehea aurkezten dizut aurreikusitako epe, material eta akaberekin. Horrela badakizu zer jasoko duzun, lanak zenbat iraungo duen eta nola antolatuko den zure eguneroko errutinan ahalik eta eragin txikiena izateko. Lan egiteko modu horrek zalantzak eta azken orduko ezustekoak saihesten ditu, eta erabakia lasai hartzeko aukera ematen du, informazio erabilgarri eta errealistarekin.",
+    "section1_p2": "Hurbiltasuna exekuzioan ere nabaritzen da: zurekin jarraipen etengabea mantentzen dut aldaketa puntualak konpontzeko, aurrerapenak berresteko eta xehetasunak doitzeko ikuspegi teknikoa galdu gabe. Proiektu txiki eta handietan irizpide berarekin inplikatzen naiz, bi kasuetan garrantzitsuena baita emaitza espazioaren benetako erabilerarekin eta zure itxaropenekin bat etortzea. Ez dut bilatzen hasieran bakarrik ondo geratzen diren irtenbide azkarrik; nahiago dut lan ondo prestatua, garbia eta koherentea egitea, iraun dezan eta gela bakoitza berriro erabiltzean lehen egunetik eroso senti zaitezen.",
+    "section1_cta_text": "Kontatu zure proiektua",
+    "section2_h2": "Lan bakoitzarekiko konpromisoa",
+    "about_list_groups": [
+        {
+            "h3": "Xehetasunen zaintza",
+            "icon_alt": "Kalitate kontrol puntua",
+            "icon_title": "Xehetasunen zaintza",
+            "items": [
+                "Hasi aurretik zoruak, altzariak eta pasabideak babesten ditut kalteak saihesteko eta espazioa prozesu osoan egoera onean mantentzeko.",
+                "Pitzadurak, ezkatatzeak eta itsaspen arazoak aztertzen ditut gainazala ondo prestatzeko eta akabera denborarekin egonkor mantentzeko.",
+                "Materialak eremu bakoitzaren benetako erabileraren arabera hautatzen ditut, berehalako itxuraren gainetik erresistentzia, garbitasuna eta iraunkortasuna lehenetsiz.",
+                "Geruzen arteko lehortze denborak errespetatzen ditut eta sistema egokia aplikatzen dut uniformetasun bisuala, estaldura zuzena eta emaitza teknikoki sendoa lortzeko.",
+                "Amaitu aurretik zurekin berrikuspena egiten dut erremateak, ertzak eta elkarguneak balioztatzeko, eta dena estandar profesional koherente batekin prest uzteko."
+            ]
+        },
+        {
+            "h3": "Etxebizitzarekiko edo lan espazioarekiko errespetua",
+            "icon_alt": "Obraren antolaketa puntua",
+            "icon_title": "Espazioarekiko errespetua",
+            "items": [
+                "Esku-hartzea faseka planifikatzen dut eragozpenak murrizteko eta etxebizitzak, komunitateak edo lokalak normaltasunez funtzionatzen jarrai dezan.",
+                "Eguneroko ordena, hondakinen retirada eta tresnen garbiketa mantentzen ditut lan ingurunea jardunaldi bakoitzean kontrolpean egon dadin.",
+                "Barruko eremuetan aireztapena eta segurtasuna zaintzen ditut, bereziki bizitoki diren edo pertsonen joan-etorri ohikoa duten espazioetan.",
+                "Aurrerapen erreala, epeak eta beharrezko doikuntzak jakinarazten dizkizut, erabakiak irizpidez eta inprobisaziorik gabe har ditzazun.",
+                "Amaitzean babesak kentzen ditut, akaberak berrikusten ditut eta espazioa erabiltzeko prest uzten dut, entrega argi eta profesional batekin."
+            ]
+        }
+    ],
+    "section3_h2": "Esperientzia pinturan eta zaharberritzean",
+    "section3_p": "Urteak daramatzat Donostialdeko pintura eta zaharberritze proiektuetan lanean, teknika, plangintza eta prozesuaren fase bakoitza errazten duen tratu zuzena uztartuz. Esperientzia horrek zerbitzua testuinguru desberdinetara egokitzeko aukera ematen dit: erabilera intentsiboko etxebizitzak, auzokideen arteko koordinazioa behar duten komunitateak, jarduera gelditu ezin duten lokalak eta esku-hartze zaindua eskatzen duten zurezko piezak. Nire ikuspegia beti hasten da gainazal bakoitzaren benetako egoeraren aurretiko diagnostikoarekin, zer egitea komeni den eta zer ez den agindu behar erabakitzeko. Horrela emaitza orekatua lortzen da estetika, erresistentzia eta aurrekontuaren artean, iraunkortasunerako eta epe ertainean behar ez diren mantentze lanak murrizteko pentsatutako irtenbideekin.",
+    "experience_items": [
+        {
+            "icon": "/home-outline.svg",
+            "img_alt": "Etxebizitzetako zerbitzuaren ikonoa",
+            "h3": "Etxebizitzak",
+            "p": "Pisu eta etxe partikularretan geletan planifikatuta egiten dut lan, babes osoekin eta akabera uniformeekin, zure etxea azkar eta konplikaziorik gabe berriro erabil dezazun."
+        },
+        {
+            "icon": "/business.svg",
+            "img_alt": "Komunitateetako zerbitzuaren ikonoa",
+            "h3": "Komunitateak",
+            "p": "Atarietan, eskaileretan eta gune komunetan jarduten dut denborak eta sarbideak koordinatuz, eragozpenak minimizatzeko, segurtasuna mantentzeko eta eguneroko erabilerari eutsiko dion emaitza entregatzeko."
+        },
+        {
+            "icon": "/furniture.svg",
+            "img_alt": "Zurezko zaharberritzearen ikonoa",
+            "h3": "Zurezko altzariak",
+            "p": "Altzariak, ateak eta barandak saneatze, lixatze eta azken babesaren bidez zaharberritzen ditut, funtzionaltasuna eta itxura berreskuratuz pieza bakoitzaren jatorrizko izaera galdu gabe."
+        },
+        {
+            "icon": "/stairs-arch.svg",
+            "img_alt": "Atari eta eskaileretan egindako lanaren ikonoa",
+            "h3": "Atariak eta eskailerak",
+            "p": "Pasabideak etengabeko marruskadurarako egokiak diren materialekin berritzen ditut, eraikinaren irudia zainduz eta kontserbazioa mantentze errazago batekin hobetuz."
+        },
+        {
+            "icon": "/add-business-outline.svg",
+            "img_alt": "Lokal komertzialetan egindako lanaren ikonoa",
+            "h3": "Lokal komertzialak",
+            "p": "Behar denean lanak ordu kritikoetatik kanpo planifikatzen ditut jardueran eragina murrizteko eta exekuzio garbia, azkarra eta zure marka irudiarekin bat datorrena ziurtatzeko."
+        },
+        {
+            "icon": "/garages.svg",
+            "img_alt": "Garaje eta trastelekuetako lanaren ikonoa",
+            "h3": "Garajeak eta trastelekuak",
+            "p": "Gainazal zorrotzetan pintura sistema iraunkorrekin jarduten dut, hezetasuna, trafikoa eta higadura kontuan hartuta, espazioaren babesa eta funtzionaltasuna hobetuz."
+        }
+    ]
 }
