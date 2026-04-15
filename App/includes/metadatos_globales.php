@@ -2,7 +2,7 @@
 
 
 <!-- V2 COOKIE LAD -->
-<!-- <script defer src="https://webda.eus/apis/cookielad/loader.js?key=barbakoaEnJulio!bbdd-profe&color=d14d4d"></script> -->
+<script defer src="https://webda.eus/apis/cookielad/loader.js?key=dll58fms03mdjltun35mgJ73Lhj89AsOo06j2nl&color=234b66"></script>
 
 <!-- utilidades para móvil -->
 <meta name="mobile-web-app-capable" content="yes">
@@ -23,5 +23,13 @@
 <link rel="apple-touch-icon-precomposed" href="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo-180.png" type="image/png">
 <!-- 270x270.png -->
 <meta name="msapplication-TileImage" content="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo-270.png">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKSZ5SMS');</script>
+<!-- End Google Tag Manager -->
 
 
