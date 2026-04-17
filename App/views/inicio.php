@@ -48,7 +48,7 @@
         <div>
             <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
         </div>
-        <a href="<?=$_ENV['RUTA']?><?= $linkContacto ?? '#' ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
+        <a href="<?=$_ENV['RUTA']?><?= $linkContacto ?? '#' ?>" class="boton" id="ctaHeader"><?= $hero_cta_text ?? '' ?></a>
         <video autoplay muted loop playsinline preload="metadata" style="width: 100vw;">
             <source src="<?=$_ENV['RUTA']?>/assets/img/videos/6474072-uhd_2560_1440_25fps.webm" type="video/webm">
         </video>
