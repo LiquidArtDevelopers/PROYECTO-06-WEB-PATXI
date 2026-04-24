@@ -1,4 +1,4 @@
 User-agent: *
 
 # Sitemap
-Sitemap: https://patxi-pintor.com/sitemap.xml
+Sitemap: https://profe-lab-pfinal.webda.eus/sitemap.xml
