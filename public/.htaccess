@@ -1,8 +1,10 @@
 RewriteEngine On
 
-# Quitar el www → redirigir a patxi-pintor-com
-RewriteCond %{HTTP_HOST} ^www\.patxi\-pintor\.com$ [NC]
-RewriteRule ^(.*)$ https://patxi-pintor.com/$1 [R=301,L]
+
+
+# Quitar el www → redirigir a https://profe-lab-pfinal.webda.eus/
+RewriteCond %{HTTP_HOST} ^www\.profe\-lab\-pfinal\.webda\.eus$ [NC]
+RewriteRule ^(.*)$ https://profe-lab-pfinal.webda.eus/$1 [R=301,L]
 
 # quitanmos la / del final
 RewriteRule ^(.*)/$ /$1 [R=301,L]
