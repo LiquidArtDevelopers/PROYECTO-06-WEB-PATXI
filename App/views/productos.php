@@ -47,9 +47,12 @@
     <header>
         <h1><?= $hero_h1 ?? '' ?></h1>
         <div>
-            <img src="https://dummyimage.com/500x300" alt="<?= $hero_img_alt ?? '' ?>" title="<?= $hero_img_title ?? '' ?>">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
         </div>
-        <a href="<?=$_ENV['RUTA']?><?= $linkContacto ?? '#' ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
+        <a href="<?=$_ENV['RUTA']?><?= $linkContacto ?? '#' ?>" class="boton" id="ctaHeader"><?= $hero_cta_text ?? '' ?></a>
+        <video autoplay muted loop playsinline preload="metadata">
+            <source src="<?=$_ENV['RUTA']?>/assets/img/videos/<?= $video_name ?>.webm" type="video/webm">
+        </video>
     </header>
 
     <main>

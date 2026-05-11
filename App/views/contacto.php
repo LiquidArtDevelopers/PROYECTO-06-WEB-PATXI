@@ -2,6 +2,26 @@
 $contactPhone = 'tel:+34943123123';
 $contactEmail = 'mailto:aranaz@webda.eus';
 $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es/contacto');
+$headerImg1500 = $imgHeader1500 ?? '';
+$headerImg1800 = $imgHeader1800 ?? $headerImg1500;
+$headerImg2560 = $imgHeader2560 ?? $headerImg1800;
+$headerInlineStyle = $headerImg1500 !== ''
+    ? "--header-img-1500: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg1500 . "'); --header-img-1800: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg1800 . "'); --header-img-2560: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg2560 . "');"
+    : '';
+
+function contacto_asset_url($src) {
+    $src = (string)($src ?? '');
+
+    if ($src === '') {
+        return 'https://dummyimage.com/1000x700';
+    }
+
+    if (str_starts_with($src, '/assets/')) {
+        return rtrim($_ENV['RUTA'] ?? '', '/') . $src;
+    }
+
+    return $src;
+}
 ?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
@@ -33,6 +53,28 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
     <meta name="twitter:url" content="<?=$_ENV['RUTA']?><?= $url ?>">
     <meta name="twitter:image" content="<?=$_ENV['RUTA']?><?= $seo_image ?>">
 
+    <style>
+        <?php if ($headerImg1500 !== ''): ?>
+        header {
+            background-image: var(--header-img-1500);
+        }
+        <?php endif; ?>
+        <?php if ($headerImg1800 !== ''): ?>
+        @media only screen and (min-width: 768px) {
+            header {
+                background-image: var(--header-img-1800);
+            }
+        }
+        <?php endif; ?>
+        <?php if ($headerImg2560 !== ''): ?>
+        @media only screen and (min-width: 1200px) {
+            header {
+                background-image: var(--header-img-2560);
+            }
+        }
+        <?php endif; ?>
+    </style>
+
     <?php
     // Metadatos globales
     include $appRoot . '/includes/metadatos_globales.php'
@@ -51,7 +93,7 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <!-- HERO -->
-    <header>
+    <header style="<?= $headerInlineStyle ?>">
         <h1><?= $hero_h1 ?? '' ?></h1>
         <div>
             <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
@@ -85,7 +127,7 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
             </div>
 
             <article class="art01">
-                <img src="https://dummyimage.com/1000x700" alt="<?= $art01_1_img_alt ?? '' ?>" title="<?= $art01_1_img_title ?? '' ?>">
+                <img src="<?= contacto_asset_url($imgArt01_1_src ?? '') ?>" alt="<?= $art01_1_img_alt ?? '' ?>" title="<?= $art01_1_img_title ?? '' ?>">
                 <div>
                     <h3><?= $art01_1_h3 ?? '' ?></h3>
                     <p><?= $art01_1_p ?? '' ?></p>
@@ -93,7 +135,7 @@ $contactUrl = $_ENV['RUTA'] . (($lang ?? 'es') === 'eu' ? '/eu/kontaktua' : '/es
             </article>
 
             <article class="art01 upsidedown">
-                <img src="https://dummyimage.com/1000x700" alt="<?= $art01_2_img_alt ?? '' ?>" title="<?= $art01_2_img_title ?? '' ?>">
+                <img src="<?= contacto_asset_url($imgArt01_2_src ?? '') ?>" alt="<?= $art01_2_img_alt ?? '' ?>" title="<?= $art01_2_img_title ?? '' ?>">
                 <div>
                     <h3><?= $art01_2_h3 ?? '' ?></h3>
                     <p><?= $art01_2_p ?? '' ?></p>

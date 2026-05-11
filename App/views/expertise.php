@@ -1,3 +1,25 @@
+<?php
+$headerImg1500 = $imgHeader1500 ?? '';
+$headerImg1800 = $imgHeader1800 ?? $headerImg1500;
+$headerImg2560 = $imgHeader2560 ?? $headerImg1800;
+$headerInlineStyle = $headerImg1500 !== ''
+    ? "--header-img-1500: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg1500 . "'); --header-img-1800: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg1800 . "'); --header-img-2560: url('" . $_ENV['RUTA'] . "/assets/img/vistas" . $headerImg2560 . "');"
+    : '';
+
+function expertise_asset_url($src) {
+    $src = (string)($src ?? '');
+
+    if ($src === '') {
+        return 'https://dummyimage.com/1000x700';
+    }
+
+    if (str_starts_with($src, '/assets/')) {
+        return rtrim($_ENV['RUTA'] ?? '', '/') . $src;
+    }
+
+    return $src;
+}
+?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>
@@ -26,6 +48,28 @@
     <meta name="twitter:url" content="<?=$_ENV['RUTA']?><?= $url ?>">
     <meta name="twitter:image" content="<?=$_ENV['RUTA']?><?= $seo_image ?>">
 
+    <style>
+        <?php if ($headerImg1500 !== ''): ?>
+        header {
+            background-image: var(--header-img-1500);
+        }
+        <?php endif; ?>
+        <?php if ($headerImg1800 !== ''): ?>
+        @media only screen and (min-width: 768px) {
+            header {
+                background-image: var(--header-img-1800);
+            }
+        }
+        <?php endif; ?>
+        <?php if ($headerImg2560 !== ''): ?>
+        @media only screen and (min-width: 1200px) {
+            header {
+                background-image: var(--header-img-2560);
+            }
+        }
+        <?php endif; ?>
+    </style>
+
     <?php
     // Metadatos globales
     include $appRoot . '/includes/metadatos_globales.php'
@@ -43,7 +87,7 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <!-- HERO01 -->
-    <header>
+    <header style="<?= $headerInlineStyle ?>">
         <h1><?= $hero_h1 ?? '' ?></h1>
         <div>
             <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
@@ -63,7 +107,7 @@
 
             <?php foreach (($section->items ?? []) as $index => $item): ?>
             <article class="art01<?= $index === 1 ? ' upsidedown' : '' ?>">
-                <img src="<?= $item->img_src ?? 'https://dummyimage.com/1000x700' ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
+                <img src="<?= expertise_asset_url($item->img_src ?? '') ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
                 <div>
                     <h3><?= $item->h3 ?? '' ?></h3>
                     <p><?= $item->p ?? '' ?></p>

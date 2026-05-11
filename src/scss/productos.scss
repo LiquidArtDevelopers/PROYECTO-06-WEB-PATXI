@@ -11,15 +11,20 @@
 
 
 header{
-    background-image: url('../img/vistas/productos/panes-pasteles-1500.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/productos/panes-pasteles-1800.avif');
-    }
-    @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/productos/panes-pasteles-2560.avif');
+    overflow: hidden;
+    background: transparent;
+    width: 100vh;
+    height: 100dvh;
+    
+    video{
+        position: absolute;
+        width: 100dvw;
+        max-height: 100dvh;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        z-index: -10;
     }
 }

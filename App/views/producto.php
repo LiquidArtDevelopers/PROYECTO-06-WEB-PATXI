@@ -14,6 +14,7 @@ $headerInlineStyle = $headerImg1500 !== ''
     <title><?= $title ?? '' ?></title>
     <meta name="description" content="<?= $description ?? '' ?>">
     <?php echo vite_tags('src/js/producto.js'); ?>
+
     <style>
         header {
             background-repeat: no-repeat;
@@ -75,6 +76,9 @@ $headerInlineStyle = $headerImg1500 !== ''
     <!-- HERO01 -->
     <header style="<?= $headerInlineStyle ?>">
         <h1><?= $hero_h1 ?? '' ?></h1>
+        <div>
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logotipo.svg" alt="<?= $hero_logo_alt ?? '' ?>" title="<?= $hero_logo_title ?? '' ?>">
+        </div>
         <a href="<?= $hero_cta_href ?? '#' ?>" class="boton"><?= $hero_cta_text ?? '' ?></a>
     </header>
 
