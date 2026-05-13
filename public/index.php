@@ -72,8 +72,6 @@ if ($method === 'POST') {
 
 
 
-
-
 // Compruebo que $url no sea un "/", sino que sea otras url como "/es/contacto"
 if ($url != "/") {
     // quito la "/" del final en caso de que la tenga
@@ -118,8 +116,7 @@ if (isset($arrayRutasGet[$lang][$url])) {
     // Si existe la ruta, vamos a buscar las homólogas en los otros idiomas usando la función para ello
     // para usarlo debo atender a cada clave de idioma. Ejemplo $urlMultilangs['eu'] = tendré la ruta actual, pero en euskera
     $urlMultilangs = getRutasEquivalentesPorIndice($url, $arrayRutasGet);
-
-   
+      
 
     // Si la url existe dentro del array de url's, entonces cogemos el valor de view, que es el archivo que haremos include para cargar el contenido pertienente de esta url.
     $view = $arrayRutasGet[$lang][$url]['view']; 
