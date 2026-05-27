@@ -176,8 +176,8 @@ include $basePath . "/App/app/envioPhpMailer.php";
 
 
 // 4 guardar los datos en una bbdd
-
 // conexión a la DB
+
 // Configuración de la conexión en $con
 $con = mysqli_connect($_ENV['BBDD_HOST'], $_ENV['BBDD_USER'], $_ENV['BBDD_PASS'], $_ENV['BBDD_BBDD']);
 
@@ -205,15 +205,12 @@ if($con === false){
 
 
 
-
-
-
-
-
 // 5 redirigir a la página index para mostrar un mensaje de envío ok, en vez del formulario
 // urlencode evita romper la cabecera si el nombre lleva espacios o acentos
 
 enviarRespuestaAsincrona("Gracias por escribirme, $nombre. En breve te contactaré", false, $nombre);
+
+
 
 
 ?>

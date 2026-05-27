@@ -21,7 +21,7 @@
                     <p class="error" id="errorForm02"></p>
 
                     <label for="nombreAjax"><?= $contact_form_label_nombre ?? '' ?></label>
-                    <input type="text" id="nombreAjax" name="nombre" placeholder="<?= $contact_form_placeholder_nombre ?? '' ?>">
+                    <input type="text" id="nombreAjax" name="nombre" minlength="3" maxlength="40" placeholder="<?= $contact_form_placeholder_nombre ?? '' ?>">
 
                     <label for="telefonoAjax"><?= $contact_form_label_telefono ?? '' ?></label>
                     <input type="tel" id="telefonoAjax" name="telefono" placeholder="<?= $contact_form_placeholder_telefono ?? '' ?>">
