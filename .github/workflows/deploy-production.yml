@@ -1,0 +1,145 @@
+name: Deploy production
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".codex/**"
+      - ".vscode/**"
+      - "AGENTS*.md"
+      - "README.md"
+      - "README/**"
+      - "SEO.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: "24"
+  PHP_VERSION: "8.4"
+  LOCAL_PUBLIC_DIR: "public"
+  REMOTE_PUBLIC_DIR: "www"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ env.PHP_VERSION }}
+          tools: composer:v2
+          coverage: none
+
+      - run: composer validate --no-check-publish
+
+      - run: composer install --no-dev --prefer-dist --no-interaction --no-progress --optimize-autoloader
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - run: npm ci --no-audit --fund=false --progress=false
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Prepare release
+        env:
+          LOCAL_PUBLIC_DIR: ${{ env.LOCAL_PUBLIC_DIR }}
+          REMOTE_PUBLIC_DIR: ${{ env.REMOTE_PUBLIC_DIR }}
+        run: |
+          set -euo pipefail
+          mkdir -p .deploy/release
+          rsync -a --delete ./ .deploy/release/ --exclude-from=.deployignore --exclude='.deploy/'
+          if [ "$LOCAL_PUBLIC_DIR" != "$REMOTE_PUBLIC_DIR" ]; then
+            rm -rf ".deploy/release/$REMOTE_PUBLIC_DIR"
+            mv ".deploy/release/$LOCAL_PUBLIC_DIR" ".deploy/release/$REMOTE_PUBLIC_DIR"
+          fi
+          test -f .deploy/release/vendor/autoload.php
+          test -f .deploy/release/App/config/config.php
+          test -f ".deploy/release/$REMOTE_PUBLIC_DIR/index.php"
+          test -f ".deploy/release/$REMOTE_PUBLIC_DIR/.htaccess"
+          echo "sha=${GITHUB_SHA}" > .deploy/release/REVISION
+
+      - name: Configure SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$SSH_PORT" -H "$SSH_HOST" >> ~/.ssh/known_hosts
+
+      - name: Upload fixed hosting directories
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          REMOTE_BASE_PATH: ${{ secrets.REMOTE_BASE_PATH }}
+          REMOTE_PUBLIC_DIR: ${{ env.REMOTE_PUBLIC_DIR }}
+        run: |
+          set -euo pipefail
+
+          ssh -i ~/.ssh/deploy_key -p "$SSH_PORT" "$SSH_USER@$SSH_HOST" \
+            "test -d '$REMOTE_BASE_PATH/App' && test -d '$REMOTE_BASE_PATH/vendor' && test -d '$REMOTE_BASE_PATH/$REMOTE_PUBLIC_DIR' && test -f '$REMOTE_BASE_PATH/.env'"
+
+          rsync -az --delete --delay-updates --omit-dir-times --no-perms --no-owner --no-group \
+            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
+            .deploy/release/vendor/ "$SSH_USER@$SSH_HOST:$REMOTE_BASE_PATH/vendor/"
+
+          rsync -az --delete --delay-updates --omit-dir-times --no-perms --no-owner --no-group \
+            --exclude='logs/' \
+            --exclude='tmp/' \
+            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
+            .deploy/release/App/ "$SSH_USER@$SSH_HOST:$REMOTE_BASE_PATH/App/"
+
+          rsync -az --delete --delay-updates --omit-dir-times --no-perms --no-owner --no-group \
+            --exclude='.well-known/' \
+            --exclude='uploads/' \
+            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
+            ".deploy/release/$REMOTE_PUBLIC_DIR/" "$SSH_USER@$SSH_HOST:$REMOTE_BASE_PATH/$REMOTE_PUBLIC_DIR/"
+
+      - name: Verify remote PHP autoload
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          REMOTE_BASE_PATH: ${{ secrets.REMOTE_BASE_PATH }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/deploy_key -p "$SSH_PORT" "$SSH_USER@$SSH_HOST" "REMOTE_BASE_PATH='$REMOTE_BASE_PATH' bash -se" <<'REMOTE'
+          set -euo pipefail
+          PHP_BIN="$REMOTE_BASE_PATH/.bin/php"
+          if [ ! -x "$PHP_BIN" ]; then
+            PHP_BIN="php"
+          fi
+          "$PHP_BIN" -r "require '$REMOTE_BASE_PATH/vendor/autoload.php'; echo 'autoload ok'.PHP_EOL;"
+          REMOTE
+
+      - name: Smoke check
+        env:
+          PRODUCTION_URL: ${{ vars.PRODUCTION_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PRODUCTION_URL:-}" ]; then
+            echo "PRODUCTION_URL environment variable is required in the GitHub environment." >&2
+            exit 1
+          fi
+          curl -fsSL --retry 3 --retry-delay 5 "${PRODUCTION_URL%/}/" >/dev/null
