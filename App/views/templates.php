@@ -29,13 +29,21 @@
 
     <main>
         
+        <!--  -->
+    <section>
+        <h2 class="moduloNikoH2">Encabezado h2 nikoH2</h2>
+    </section>
 
         <!-- Sección 01 -->
         <section class="sect01">
+
+            
+
             <div class="h2Especial">
                 <span></span>
                 <h2>Sección 01</h2>
             </div>
+
             <article>
                 <!-- hijo 1 -->
                 <div>
