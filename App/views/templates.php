@@ -30,9 +30,9 @@
     <main>
         
         <!--  -->
-    <section>
-        <h2 class="moduloNikoH2">Encabezado h2 nikoH2</h2>
-    </section>
+        <section>
+            <h2 class="moduloNikoH2">Encabezado h2 nikoH2</h2>
+        </section>
 
         <!-- Sección 01 -->
         <section class="sect01">
