@@ -6,8 +6,21 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.patxi\-pintor\.com$ [NC]
 RewriteRule ^(.*)$ https://patxi-pintor.com/$1 [R=301,L]
 
-# quitanmos la / del final
-RewriteRule ^(.*)/$ /$1 [R=301,L]
+# El hosting ya fuerza HTTPS. Los destinos absolutos evitan que su proxy
+# genere una vuelta a HTTP al normalizar las barras finales.
+RewriteCond %{HTTP_HOST} ^patxi-pintor\.com$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ https://patxi-pintor.com/$1 [R=301,L]
+
+# Mantener el funcionamiento local sin enviar localhost a producción.
+RewriteCond %{HTTP_HOST} !^(www\.)?patxi-pintor\.com$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Ocultar index.php solo cuando se solicita desde el navegador.
+RewriteCond %{THE_REQUEST} \s/+index\.php(?:[?\s]) [NC]
+RewriteCond %{HTTP_HOST} ^patxi-pintor\.com$ [NC]
+RewriteRule ^index\.php$ https://patxi-pintor.com/ [R=301,L]
 
 # que no cuente como url los files y directory
 RewriteCond %{REQUEST_FILENAME} !-f

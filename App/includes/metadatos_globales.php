@@ -2,7 +2,30 @@
 
 
 <!-- V2 COOKIE LAD -->
-<script defer src="https://webda.eus/apis/cookielad/loader.js?key=cenaLab2026Profe&color=234b66"></script>
+<script defer src="https://webda.eus/apis/cookielad/loader.js?key=dll58fms03mdjltun35mgJ73Lhj89AsOo06j2nl&amp;color=234b66"></script>
+
+<?php
+// Equivalencias de idioma obtenidas de las rutas públicas reales.
+if (isset($arrayRutasGet, $lang, $url) && isset($arrayRutasGet[$lang][$url])) {
+    $currentContent = $arrayRutasGet[$lang][$url]['content'];
+    $alternateUrls = [];
+    foreach ($arrayRutasGet as $alternateLang => $routes) {
+        foreach ($routes as $alternatePath => $route) {
+            if ($route['content'] === $currentContent) {
+                $alternateUrls[$alternateLang] = rtrim($_ENV['RUTA'], '/') . $alternatePath;
+                break;
+            }
+        }
+    }
+    foreach ($alternateUrls as $alternateLang => $alternateUrl) {
+        echo '<link rel="alternate" hreflang="' . htmlspecialchars($alternateLang, ENT_QUOTES, 'UTF-8') . '" href="' . htmlspecialchars($alternateUrl, ENT_QUOTES, 'UTF-8') . '">' . PHP_EOL;
+    }
+    // La portada de producción redirige al euskera.
+    if (isset($alternateUrls['eu'])) {
+        echo '<link rel="alternate" hreflang="x-default" href="' . htmlspecialchars($alternateUrls['eu'], ENT_QUOTES, 'UTF-8') . '">' . PHP_EOL;
+    }
+}
+?>
 
 <!-- utilidades para móvil -->
 <meta name="mobile-web-app-capable" content="yes">

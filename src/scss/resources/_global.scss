@@ -323,7 +323,7 @@ footer{
                 }
             }
         }
-        >:nth-child(3){      
+        >.contactInfo{
             @media only screen and (min-width:c.$desktop){
                 &{
                     align-items: flex-end;
@@ -365,8 +365,18 @@ footer{
             filter: invert(1);
         }
     }
-    a, p{
+    a, p, span{
         color: c.$color00;
+    }
+    a{
+        overflow-wrap: anywhere;
+        &:hover{
+            text-decoration: underline;
+        }
+        &:focus-visible{
+            outline: 2px solid c.$color00;
+            outline-offset: 4px;
+        }
     }
     ul{
         list-style: none;

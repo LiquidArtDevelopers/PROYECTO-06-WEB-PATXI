@@ -8,7 +8,7 @@
             ?>
         </div>
 
-        <div class="cajaInfo">
+        <div class="cajaInfo contactInfo">
             <ul>
                 <li>
                     <a href="tel:+34626107076" title="<?= $footerTelefonoTitle ?? '' ?>" target="_blank" class="telefono">
