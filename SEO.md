@@ -1,5 +1,41 @@
 # Esquema de URLs, objetivos y encabezados
 
+## Revisión de tono y alcance local — 4 de noviembre de 2026
+
+El cliente confirma que Patxi es amable, cercano y empático, y se esfuerza por trabajar bien y cuidar los remates. Solicita trato de **usted**, en segunda persona, por encima de la pauta anterior de tutear. Evitar promesas de resultado, plazos o experiencia cuantificada que no estén confirmados. En euskera se conserva el tratamiento de respeto con «zu».
+
+Localidades solicitadas por el cliente: Usurbil, Lasarte-Oria, Andoain, Hernani, Orio e Irun, con Donostialdea como ámbito principal. Orio e Irun no se presentan como municipios de Donostialdea. En Irun se invita a consultar ubicación y disponibilidad, sin prometer cobertura automática.
+
+| Recurso ES / EU (rutas actuales) | Servicio | Diferenciación | Finalidad | Vector local (macro + hasta 2 ámbitos) |
+| --- | --- | --- | --- | --- |
+| inicio | Pintura y restauración | Escucha y trato directo | Presentación general | Gipuzkoa / Donostialdea / Donostia |
+| pintor | Pintura interior y exterior | Preparación y cuidado del espacio | Viviendas, comunidades, locales | Gipuzkoa / Usurbil / Lasarte-Oria |
+| pisos | Pintura de pisos | Organización y remates | Viviendas habitadas | Gipuzkoa / Andoain / Hernani |
+| balcones | Pintura exterior | Revisión de soporte y exposición | Balcones y fachadas | Gipuzkoa / Donostia / Orio |
+| humedad | Preparación y pintura de paredes afectadas | Explicar límites y causa sin resolver | Conservación de paredes | Gipuzkoa / Hernani / Lasarte-Oria |
+| restaurador | Restauración de muebles | Escuchar qué desea conservar | Muebles y elementos de madera | Gipuzkoa / Usurbil / Orio |
+| quienesSomos | Pintura y restauración | Amabilidad, empatía y atención al detalle | Confianza personal | Gipuzkoa / Donostialdea |
+| contacto | Consulta y presupuesto | Contacto directo | Valorar alcance y disponibilidad | Gipuzkoa / Donostialdea / Irun |
+| expertise | Tipos de trabajo que consultar | Ejemplos sin atribución histórica | Orientar por necesidad | Gipuzkoa / Donostialdea / Hernani |
+
+El ámbito general Donostialdea puede aparecer como referencia de alcance en las páginas internas; las localidades de cada vector se introducen en el cuerpo con una necesidad concreta, evitando listas repetidas. Se mantiene la distinción por servicio para no competir entre páginas con textos casi idénticos. El recurso «expertise» deja de presentar relatos de encargos concretos no documentados como casos reales; sus imágenes son ilustrativas y sus ejemplos describen necesidades que se pueden consultar. Las rutas permanecen para conservar enlaces existentes.
+
+Recuento final del `main` servido, incluidos formulario y contacto compartidos:
+
+| Recurso | ES | EU |
+| --- | ---: | ---: |
+| inicio | 671 | 527 |
+| pintor | 953 | 766 |
+| pisos | 847 | 645 |
+| balcones | 782 | 584 |
+| humedad | 774 | 608 |
+| restaurador | 791 | 599 |
+| quienesSomos | 775 | 601 |
+| contacto | 598 | 437 |
+| expertise | 1006 | 699 |
+
+Se conservan los recursos de las vistas. Inicio, contacto y varias versiones en euskera quedan por debajo de 700 palabras; no se alargan con repeticiones para forzar el recuento en esta revisión de tono. No se encuentran imágenes dummy en las rutas públicas, por lo que no se añaden descargas de Unsplash. Se revisan las ocho fotografías de las galerías y se corrigen sus ALT para describir lo que muestran, sin inventar ubicaciones, identidad del profesional o resultados de una intervención.
+
 ## Datos de contacto confirmados — 4 de noviembre de 2026
 
 Indexación autorizada por el cliente: las 18 páginas comerciales de castellano y euskera permiten `index, follow`. El sitemap incluye únicamente esas 18 URL; las páginas legales, de error, agradecimiento y acceso mantienen `noindex, nofollow`. `robots.txt` permite el rastreo para que los buscadores puedan leer estas directivas.

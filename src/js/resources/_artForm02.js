@@ -16,7 +16,6 @@ const loader = document.getElementById("moduloLoader01")
 // relativo al modal de envío ok
 const modalEnvio = document.querySelector("#modal_envio")
 const h3ModalEnvio = document.querySelector("#h3_modal_envio")
-const pModalEnvio = document.querySelector("#p_modal_envio")
 const botonModalEnvio = document.querySelector('#boton_modal_envio')
 
 
@@ -68,7 +67,6 @@ formulario?.addEventListener("submit", function(e){
             let ArrayJson = JSON.parse(jsonRecibido);
             let mensaje = ArrayJson.mensaje;
             let fallo = ArrayJson.fallo;
-            let param3 = ArrayJson.param3; //recibo o el campo donde está el fallo o el nombre del user
 
             // quito el loader        
             loader.style.display="none" //Quitamos loader
@@ -91,7 +89,7 @@ formulario?.addEventListener("submit", function(e){
                 formulario.style.display="none"
                 modalEnvio.style.display="flex"
                 h3ModalEnvio.innerText=mensaje
-                pModalEnvio.innerText=`Hemos recibido tu consulta, ${param3}, no te preocupes que en breve te contestaremos. Si estás interesado/a en volver a contactarnos, pulsa el botón para mostrar el formulario.`              
+                // Mantener el mensaje localizado de la plantilla (ES/EU).
                 
 
                 // aquí es donde debemos mostrar el modal con la info relativa y el botón

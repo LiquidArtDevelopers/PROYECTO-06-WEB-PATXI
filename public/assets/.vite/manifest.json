@@ -1,6 +1,6 @@
 {
-  "__artForm02-f0TmAnM3.js": {
-    "file": "js/_artForm02-f0TmAnM3.js",
+  "__artForm02-CjaPYYGP.js": {
+    "file": "js/_artForm02-CjaPYYGP.js",
     "name": "_artForm02"
   },
   "src/js/404.js": {
@@ -13,12 +13,12 @@
     ]
   },
   "src/js/contacto.js": {
-    "file": "js/contacto-XzsfEE6P.js",
+    "file": "js/contacto-CBRrG5fQ.js",
     "name": "contacto",
     "src": "src/js/contacto.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/contacto-Cyphkwal.css"
@@ -34,60 +34,60 @@
     ]
   },
   "src/js/inicio.js": {
-    "file": "js/inicio-DInRbr7-.js",
+    "file": "js/inicio-DAD2pIRk.js",
     "name": "inicio",
     "src": "src/js/inicio.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/inicio-BrkqvfLs.css"
     ]
   },
   "src/js/producto.js": {
-    "file": "js/producto-CQFZrDXI.js",
+    "file": "js/producto-BMtp538r.js",
     "name": "producto",
     "src": "src/js/producto.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/producto-BhadHl_5.css"
     ]
   },
   "src/js/productos.js": {
-    "file": "js/productos-BeWc0hyR.js",
+    "file": "js/productos-Dsef4Paw.js",
     "name": "productos",
     "src": "src/js/productos.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/productos-VypL1kko.css"
     ]
   },
   "src/js/quienesSomos.js": {
-    "file": "js/quienesSomos-Dk-Y2Bab.js",
+    "file": "js/quienesSomos-BaoLJkFK.js",
     "name": "quienesSomos",
     "src": "src/js/quienesSomos.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/quienesSomos-C60-IJeI.css"
     ]
   },
   "src/js/templates.js": {
-    "file": "js/templates-DBThO9Fc.js",
+    "file": "js/templates-DRWFrIFJ.js",
     "name": "templates",
     "src": "src/js/templates.js",
     "isEntry": true,
     "imports": [
-      "__artForm02-f0TmAnM3.js"
+      "__artForm02-CjaPYYGP.js"
     ],
     "css": [
       "css/templates-BXLcNIX-.css"

@@ -8,10 +8,10 @@
     "hero_logo_title": "Patxi, pintura eta zaharberritze profesionala",
     "hero_cta_text": "Eskatu aurrekontua",
     "section1_h2": "Tratu hurbila eta arreta zuzena",
-    "section1_img_alt": "Patxi etxebizitza batean pintura lanak xehetasunez egiten",
+    "section1_img_alt": "Gela bat pintura lanetarako prestatzea",
     "section1_img_title": "Arreta zuzena pintura eta zaharberritze proiektu bakoitzean",
-    "section1_p1": "Zurekin aurrez aurre egiten dut lan, bitartekaririk gabe eta lehen bisitatik komunikazio argiarekin. Zure etxebizitza margotu, gune komun bat berritu edo zurezko pieza bat berreskuratu behar baduzu, nire lehentasuna da hasi aurretik urrats bakoitza ulertzea. Euskarriaren egoera berrikusten dut, zein tratamendu komeni den azaltzen dizut eta aurrekontu xehea aurkezten dizut aurreikusitako epe, material eta akaberekin. Horrela badakizu zer jasoko duzun, lanak zenbat iraungo duen eta nola antolatuko den zure eguneroko errutinan ahalik eta eragin txikiena izateko. Lan egiteko modu horrek zalantzak eta azken orduko ezustekoak saihesten ditu, eta erabakia lasai hartzeko aukera ematen du, informazio erabilgarri eta errealistarekin.",
-    "section1_p2": "Hurbiltasuna exekuzioan ere nabaritzen da: zurekin jarraipen etengabea mantentzen dut aldaketa puntualak konpontzeko, aurrerapenak berresteko eta xehetasunak doitzeko ikuspegi teknikoa galdu gabe. Proiektu txiki eta handietan irizpide berarekin inplikatzen naiz, bi kasuetan garrantzitsuena baita emaitza espazioaren benetako erabilerarekin eta zure itxaropenekin bat etortzea. Ez dut bilatzen hasieran bakarrik ondo geratzen diren irtenbide azkarrik; nahiago dut lan ondo prestatua, garbia eta koherentea egitea, iraun dezan eta gela bakoitza berriro erabiltzean lehen egunetik eroso senti zaitezen.",
+    "section1_p1": "Patxi naiz eta pinturan eta altzarien zaharberritzean egiten dut lan. Pertsonak adeitasunez tratatzea eta zer behar duten ulertzea gustatzen zait, lan bat proposatu aurretik. Etxebizitza berritu edo zurezko pieza bat berreskuratu nahi baduzu, materialak edo termino teknikoak ezagutu gabe azal diezadakezu. Entzun egingo dizut, aukerak aztertuko ditugu eta komeni denaz hitz egingo dugu. Gipuzkoako Donostialdeko inguruan egiten dut lan, hurbiltasun ideia horrekin: hitz egiteko pertsona bat izatea eta zalantzak lasaitasunez planteatu ahal izatea.",
+    "section1_p2": "Ulertzen dut obra batek, txikia izan arren, etxeko egunerokoa aldatzen duela. Horregatik, jakin nahi dut gela bat erabilgarri mantendu behar duzun, altzari delikatuak dauden edo pasabideren bat bereziki zaindu behar den. Nahiago dut hasi aurretik xehetasun horietaz hitz egin eta antolaketa azaltzea. Lanean ari naizen bitartean, aurrerapenen berri ematen saiatuko naiz eta adostutakoari eragiten dion edozein aldaketa komentatuko dugu. Zerbait kezkatzen bazaitu, esan lasai. Ondo artatzea margotzea edo zaharberritzea bezainbeste da lanaren parte.",
     "section1_cta_text": "Kontatu zure proiektua",
     "section2_h2": "Lan bakoitzarekiko konpromisoa",
     "about_list_groups": [
@@ -40,8 +40,8 @@
             ]
         }
     ],
-    "section3_h2": "Esperientzia pinturan eta zaharberritzean",
-    "section3_p": "Urteak daramatzat Donostialdeko pintura eta zaharberritze proiektuetan lanean, teknika, plangintza eta prozesuaren fase bakoitza errazten duen tratu zuzena uztartuz. Esperientzia horrek zerbitzua testuinguru desberdinetara egokitzeko aukera ematen dit: erabilera intentsiboko etxebizitzak, auzokideen arteko koordinazioa behar duten komunitateak, jarduera gelditu ezin duten lokalak eta esku-hartze zaindua eskatzen duten zurezko piezak. Nire ikuspegia beti hasten da gainazal bakoitzaren benetako egoeraren aurretiko diagnostikoarekin, zer egitea komeni den eta zer ez den agindu behar erabakitzeko. Horrela emaitza orekatua lortzen da estetika, erresistentzia eta aurrekontuaren artean, iraunkortasunerako eta epe ertainean behar ez diren mantentze lanak murrizteko pentsatutako irtenbideekin.",
+    "section3_h2": "Pintura eta zaharberritzea, zure beharren arabera",
+    "section3_p": "Pinturan, hormen eta sabaien prestaketari, inguruko elementuen babesari eta erremateei arreta jartzen diet. Zaharberritzean, lehenik piezaren egoera eta zer gorde nahi duzun ezagutu nahi dut. Egunero erabiltzen duzun altzari bat edo bereziki maite duzun pieza bat izan daiteke; bi kasuetan entzutea komeni da esku hartu aurretik. Azalpen argia eta lan zaindua uztartzen saiatzen naiz, proposamena benetan behar duzunera egokituta. Zerbait sakonago aztertu behar bada, esango dizut. Nahiago dut irismena zurekin zehaztu, oraindik baloratu ezin diren emaitzak agindu baino.",
     "experience_items": [
         {
             "icon": "/home-outline.svg",

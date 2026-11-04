@@ -1,160 +1,160 @@
 {
-  "seo_title": "Egindako pintura eta zaharberritze lanak | Patxi",
-  "seo_description": "Patxik Donostian, Andoainen, Lasarte-Orian, Usurbilen, Orion eta Zarautzen egindako pintura eta zurezko zaharberritze lanen adibideak.",
+  "seo_title": "Pintura eta altzarien zaharberritze lanak | Patxi",
+  "seo_description": "Zure etxerako, komunitaterako edo altzarietarako pintura eta zaharberritze aukerak. Kontatu Patxiri zer behar duzun Donostialdean.",
   "seo_image": "/assets/img/vistas/header-patxi-pintor-restaurador-header-1500.avif",
   "imgHeader1500": "/header-patxi-pintor-restaurador-header-1500.avif",
   "imgHeader1800": "/header-patxi-pintor-restaurador-header-1800.avif",
   "imgHeader2560": "/header-patxi-pintor-restaurador-header-2560.avif",
-  "hero_h1": "Egindako lanak",
-  "hero_logo_alt": "Donostialdean egindako pintura eta zaharberritze lanak",
-  "hero_logo_title": "Patxiren benetako proiektuak",
-  "hero_cta_text": "Eskatu antzeko aurrekontu bat",
+  "hero_h1": "Pintura eta zaharberritze lanak",
+  "hero_logo_alt": "Pintura eta zurezko zaharberritzea",
+  "hero_logo_title": "Patxiri kontsultatu diezazkiokezun lanak",
+  "hero_cta_text": "Kontatu zer behar duzun",
   "expertise_sections": [
     {
-      "h2": "Donostia - San Sebastián",
+      "h2": "Zure etxebizitza",
       "items": [
         {
           "img_src": "/assets/img/vistas/pisos-y-viviendas-particulares-1200.avif",
-          "img_alt": "Donostiako etxebizitza batean barruko pintura lana",
-          "img_title": "Etxebizitza partikularra Donostian",
-          "h3": "Donostiako etxebizitza baten barruko pintura",
-          "p": "Barruko pintura berritze osoa familia etxebizitza batean, erabileragatik kaltetutako hormekin eta sabaian ezkatatze txikiekin. Aurretiko saneatzea, pitzaduren konponketa eta mantentzea errazteko akabera garbigarria aplikatu ziren. Emaitzak pisu osoaren argitasuna eta uniformetasuna hobetu zituen, obran zehar etxebizitza erabilgarri mantenduz gelaka egindako plangintzari esker. Horri esker, Donostiako etxebizitzak itxura zainduagoa hartu zuen eguneroko erabilera galdu gabe.",
-          "cta_text": "Antzeko emaitza nahi dut",
+          "img_alt": "Etxebizitza baten barrualdea",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Berritu beharreko hormak eta sabaiak",
+          "p": "Donostialdean zure etxea berritu nahi baduzu, gehien erabiltzen dituzun geletatik has gaitezke. Kontatu markek, koloreak edo hondatutako guneek kezkatzen zaituzten. Gainazala aztertuko dut, margotu aurretik zer prestaketa behar duen azaltzeko. Altzariez eta pasabideez ere hitz egingo dugu: lanean zure etxea zaintzea ondo lan egitearen parte da.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/comunidades-zonas-comunes-1200.avif",
-          "img_alt": "Donostiako komunitate bateko atari eta eskaileraren pintura",
-          "img_title": "Komunitatea Donostian",
-          "h3": "Donostiako komunitate atariaren berritzea",
-          "p": "Eguneroko trafiko handia duen komunitate bateko atarian eta eskailera kaxan egindako esku-hartzea. Marruskadura eremuak prestatu ziren, erabilera jarraiturako pintura erresistentea aukeratu zen eta lana faseka egin zen sarbideak ez blokeatzeko. Lan honek eraikinaren irudia berritzeko eta gainazal komunen kontserbazioa hobetzeko aukera eman zuen, irtenbide iraunkorrago eta garbitzeko errazago batekin.",
-          "cta_text": "Nire komunitaterako balorazioa eskatu",
+          "img_alt": "Etxebizitza eraikina",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Aldaketa gelaka",
+          "p": "Ez da beti etxe osoa aldi berean margotu behar. Agian egongelatik hasi nahi duzu edo gela huts bat aprobetxatu. Ordena horretaz eta lana egunerokoarekin nola uztartu hitz egin dezakegu. Akaberan zerk eragiten duen eta zer lehortze denbora errespetatu behar den azalduko dizut, etxe osoan esku hartu behar dela aldez aurretik onartu gabe.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }
       ]
     },
     {
-      "h2": "Andoain",
+      "h2": "Zure komunitatea",
       "items": [
         {
           "img_src": "/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif",
-          "img_alt": "Andoaingo sukalde eta egongela margotzea",
-          "img_title": "Etxebizitza Andoainen",
-          "h3": "Andoaingo egongela eta sukaldearen eguneratzea",
-          "p": "Andoaingo etxebizitza bateko egongela eta sukaldea eguneratzeko proiektua, argitasuna eta uniformetasun bisuala irabazteko helburuarekin. Pintura hondatua zuten eremuak kendu ziren, xurgapena erregularizatu zen eta estaldura handiko eskema kromatiko neutroa aplikatu zen. Esku-hartzea epe estuetan osatu zen, garbitasuna eta sabaien eta elkarguneen erremateen kalitatea arriskuan jarri gabe. Lanaren antolaketa zehatzari esker, familiak espazio nagusiak azkar berreskuratu zituen.",
-          "cta_text": "Etxebizitzarako aurrekontua kontsultatu",
+          "img_alt": "Barruko pintura lana",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Atariak, eskailerak eta pasabideak",
+          "p": "Atari edo eskailera batean, eguneroko erabilera bereziki nabaritzen da elkarguneetan, izkinetan eta pasabideetako hormetan. Zure komunitatea Hernanin badago, kontatu zer gune berritu behar diren eta nola erabiltzen diren. Sarbideez eta ordutegiez hitz egingo dugu pintura antolatu aurretik. Auzokideek zer egingo den jakitea eta erremateak zaintzea garrantzitsua da niretzat.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/muebles-vivienda-1500.avif",
-          "img_alt": "Andoaingo zurezko baranda berreskuratzea",
-          "img_title": "Zurezko zaharberritzea Andoainen",
-          "h3": "Andoaingo zurezko barandaren zaharberritzea",
-          "p": "Denboraren poderioz higatutako barruko baranda eta zurezko elementuen zaharberritzea. Gainazala saneatu zen, lixatze teknikoa egin zen eta etxebizitzaren eguneroko erabilerara egokitutako azken babesa aplikatu zen. Piezak egonkortasuna eta presentzia berreskuratu zituen bere jatorrizko izaera galdu gabe, eta inguruko hezetasunagatik goiz hondatzeko arriskua ere murriztu zen.",
-          "cta_text": "Zurezko pieza bat zaharberritu nahi dut",
+          "img_alt": "Zurezko altzaria etxebizitza batean",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Pintura espazio partekatuetan",
+          "p": "Komunitatean esku hartu aurretik, komeni da irismena lana koordinatzen duen pertsonarekin zehaztea. Zer gainazal margotu nahi diren eta zer gune mantendu behar diren erabilgarri esan diezadakezu. Oinarriaren egoera eta babes beharrak aztertuko ditugu. Adostutakoa aldatzen duen zerbait sortzen bada, nahiago dut jarraitu aurretik komentatu.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }
       ]
     },
     {
-      "h2": "Lasarte-Oria",
+      "h2": "Zure lokala",
       "items": [
         {
           "img_src": "/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-1500.avif",
-          "img_alt": "Lasarte-Oriako balkoi baten kanpoko pintura",
-          "img_title": "Balkoi berritua Lasarte-Orian",
-          "h3": "Lasarte-Oriako balkoien kanpoko pintura",
-          "p": "Euriaren eta eguzki zuzenaren eraginpean zeuden balkoien berritzea Lasarte-Oriako etxebizitza batean. Garbiketa sakona, puntu ahulduen konponketa eta erresistentzia handiko kanpoko sistema baten aplikazioa egin ziren. Lanak fatxadaren irudia hobetu zuen eta gainazalen babesa indartu zuen eguraldiaren aurrean, denboraldi bakoitzean errepikatzen ziren ezkatatzeak saihestuz.",
-          "cta_text": "Nire balkoia berritu behar dut",
+          "img_alt": "Eraikin bateko pintura lana",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Hormak berritu, zure jarduera kontuan hartuta",
+          "p": "Zure lokala margotu nahi baduzu, kontatu zer jarduera egiten duzun eta zer espazio mantendu behar dituzun erabilgarri. Kolorea ez ezik, altzariak, sarbideak eta horma bakoitzaren prestaketa ere kontuan hartu behar dira. Lanaren irismena eta antolaketa aurretik baloratu ditzakegu, erabakitzeko informazioa izan dezazun.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/locales-comerciales-oficinas-1200.avif",
-          "img_alt": "Lasarte-Oriako lokal komertzial baten pintura osoa",
-          "img_title": "Lokal komertziala Lasarte-Orian",
-          "h3": "Lasarte-Oriako lokal komertzialaren pintura integrala",
-          "p": "Publikoari itxita egoteko denbora minimizatu behar zuen lokal komertzial baten pintura integrala. Ordutegi tarteen arabera planifikatu zen eta prozesua egokitu zen obrak aurrera egin bitartean eremu operatiboak mantentzeko. Akabera uniformea, modernoa eta erabilera intentsiboarekiko erresistentea lortu zen, negozioaren marka irudiarekin eta eguneroko jarduerarekin bat etorriz.",
-          "cta_text": "Nire lokalerako pintura planifikatu",
+          "img_alt": "Lokal baten barrualdea",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Marruskadura eta erabilera handiko guneak",
+          "p": "Pasabideek, sarrerek eta altzarien inguruko guneek arreta eskatzen dute pintura prestatzean. Esan zer marka agertzen diren eta espazioa nola garbitzen den. Informazio horrekin akabera eta euskarriaren tratamendua komentatu ditzakegu. Ebakiak eta guneen arteko trantsizioak ere zaindu nahi ditut. Bereziki kezkatzen zaituen punturen bat badago, elkarrekin aztertuko dugu.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }
       ]
     },
     {
-      "h2": "Usurbil",
+      "h2": "Gorde nahi dituzun altzariak",
       "items": [
         {
           "img_src": "/assets/img/vistas/comunidades-zonas-comunes-1200.avif",
-          "img_alt": "Usurbilgo gune komunetako pintura",
-          "img_title": "Komunitatea Usurbilen",
-          "h3": "Usurbilgo gune komunen pintura",
-          "p": "Usurbilgo bizitegi komunitate bateko gune komunetan egindako jarduketa, ataria, eskailera-buruak eta etxebizitzetarako sarbide korridoreak barne. Marruskadura handieneko eremuak indartu ziren eta ondorengo mantentzerako garbitzeko erraza den pintura hautatu zen. Proiektua faseka gauzatu zen, auzokideei aurretik jakinarazita, ohiko joan-etorrian modu kritikoan eragin gabe irudi hobekuntza nabaria lortuz. Komunitatearentzat garrantzitsua zen emaitza garbia izatea, baina baita sarbideak erabilgarri mantentzea ere.",
-          "cta_text": "Komunitaterako proposamena eskatu",
+          "img_alt": "Etxebizitza eraikina",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Zuretzat balioa duen pieza bat",
+          "p": "Maite duzun altzari bat baduzu, kontatu zer gorde nahi duzun: tonua, moldura bat edo betidanik gogoratzen duzun itxura. Aldaketak proposatu aurretik, zuraren egoera eta konponketa aukerak aztertuko ditugu. Orrialde honetako irudiak adierazgarriak dira; zure pieza bere egoeraren, xehetasunen eta berreskuratu nahi duzunaren arabera baloratu behar da.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/muebles-comunidades-1500.avif",
-          "img_alt": "Usurbilgo zurezko atea berreskuratzea",
-          "img_title": "Ate zaharberritzea Usurbilen",
-          "h3": "Usurbilgo zurezko atearen berreskurapena",
-          "p": "Esposizioagatik eta erabilera jarraituagatik higatutako zurezko ate nagusiaren berreskurapena. Hondatutako akabera kendu zen, akats txikiak konpondu ziren eta kanpoaldeetarako babes espezifikoa aplikatu zen. Esku-hartzeak jatorrizko pieza kontserbatzeko eta hezetasunaren eta aldaketa termikoen aurrean haren errendimendua hobetzeko aukera eman zuen, fatxadarekin bat zetorren azken akabera orekatuarekin.",
-          "cta_text": "Zurezko zaharberritzea baloratu",
+          "img_alt": "Zurezko elementua eraikin batean",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Konpondu, akabera aukeratu aurretik",
+          "p": "Hanka solte batek, lotura ireki batek edo kaltetutako gune batek arreta behar du bernizaz edo koloreaz pentsatu aurretik. Pieza osoaren eta xehetasunen argazkiak bidal diezazkidakezu. Zer aztertu behar den eta zer informazio falta den azalduko dizut. Nahiago dut aukerak eta mugak ezagutzea, altzaria nola berreskuratu erabaki aurretik.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }
       ]
     },
     {
-      "h2": "Orio",
+      "h2": "Zura zure etxean edo eraikinean",
       "items": [
         {
           "img_src": "/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif",
-          "img_alt": "Kostaldetik gertu dagoen Orioko etxebizitza baten pintura",
-          "img_title": "Etxebizitza Orion",
-          "h3": "Orioko etxebizitza baten barruko pintura",
-          "p": "Orioko kostalde inguruko etxebizitza batean barruko pintura berritzea, non inguruko hezetasunak hormen egoeran eragina zuen. Euskarriaren prestaketa teknikoa, eremu sentikorren zuzenketa eta testuinguru horrekin bateragarria zen sistema baten aplikazioa egin ziren. Emaitza uniformetasun eta egonkortasun hobekuntza argia izan zen, gela kritikoetan marken eta arazo errepikarien agerpena murriztuz. Horrelako inguruneetan prestaketa ona funtsezkoa da akabera denboran egonkor mantentzeko.",
-          "cta_text": "Nire etxebizitza berrikusi nahi dut",
+          "img_alt": "Barruko pintura lana",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Ateak eta zurezko elementuak",
+          "p": "Egunero erabiltzen den ate edo zurezko elementu batean, itxura eta akabera aurreko egoera hartu behar dira kontuan. Kontatu non dagoen eta zer kalte ikusten dituzun. Konpondu, lixatu edo bestelako prestaketa komeni den aztertuko dugu. Tonua edo jatorrizko xehetasunen bat mantendu nahi baduzu, esan hasieratik.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-1500.avif",
-          "img_alt": "Orioko fatxada baten kanpoko pintura",
-          "img_title": "Fatxada berritua Orion",
-          "h3": "Orioko fatxadaren babesa eta pintura",
-          "p": "Kanpoko esposizio jarraituaren aurrean babesa hobetzeko premia zuen fatxada pintura proiektua. Hasierako garbiketa, hondatutako eremuen saneatzea eta geruzaz geruzako aplikazioa egin ziren itsaspena eta erresistentzia ziurtatzeko. Fatxadak presentzia bisuala eta eguraldiaren aurreko portaera hobea berreskuratu zituen, ingurune mota honetan azkar hondatu ohi diren irtenbide azkarrak saihestuz.",
-          "cta_text": "Fatxada pintura kontsultatu",
+          "img_alt": "Eraikin bateko pintura lana",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Babesa eta ondorengo zaintza",
+          "p": "Pasabide bateko zurak eta apaingarri batenak ez dute erabilera bera. Akabera proposatu aurretik, kokapenaz, garbiketaz eta bilatzen duzun emaitzaz hitz egingo dugu. Ondoren, egindako lanari dagozkion zaintzak azaldu ahal izango dizkizut. Pieza nola tratatu eta zeri erreparatu jakitea da helburua, azalpen ulergarriekin.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }
       ]
     },
     {
-      "h2": "Zarautz",
+      "h2": "Prestaketa eta erremateak",
       "items": [
         {
           "img_src": "/assets/img/vistas/locales-comerciales-oficinas-1200.avif",
-          "img_alt": "Zarautzko komunitate garaje baten pintura",
-          "img_title": "Garajea Zarautzen",
-          "h3": "Zarautzko komunitate garajearen pintura",
-          "p": "Zarautzko komunitate garaje batean egindako esku-hartzea, marruskadurak, zikinkeriak eta hezetasunak kaltetutako gainazalekin. Erabilera intentsiborako eta mantentze periodikorako egokitutako pintura sistema aukeratu zen, erresistentzia eta garbitzeko erraztasuna lehenetsiz. Lanak espazioaren irakurketa bisuala hobetu zuen, paramentuen babesa indartu zuen eta erabiltzaileentzat eremuaren erabilera erosoagoa ahalbidetu zuen.",
-          "cta_text": "Garaje bat margotu behar dut",
+          "img_alt": "Lokal baten barrualdea",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Margotu aurretik aztertu beharrekoa",
+          "p": "Pintura askatua edo orbanak dituen horma aztertu behar da kolorea aukeratu aurretik. Hezetasuna ikusten baduzu, azaldu noiz agertzen den eta jatorria egiaztatu den. Ez da erabilgarria arazo aktibo baten gainean margotzea. Zer prestaketa baloratu daitekeen eta zer konpondu behar den lehenik azalduko dizut.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         },
         {
           "img_src": "/assets/img/vistas/restauracion-muebles-antiguos-1500.avif",
-          "img_alt": "Zarautzko altzari zahar baten zaharberritzea",
-          "img_title": "Altzari berreskuratua Zarautzen",
-          "h3": "Zarautzko altzari zaharraren zaharberritzea",
-          "p": "Jabe familiaren balio sentimentala zuen altzari zahar baten zaharberritze osoa. Loturak konpondu ziren, egitura egonkortu zen eta azken akabera aplikatu zen haren jatorrizko estetika errespetatuz. Esku-hartze honek funtzionaltasuna itzuli zion piezari eta berriro etxebizitzan integratu zuen emaitza iraunkor, orekatu eta etxeko ingurunearen estiloarekin koherente batekin.",
-          "cta_text": "Altzari bat berreskuratu nahi dut",
+          "img_alt": "Estilo klasikoko zurezko altzaria",
+          "img_title": "Irudi adierazgarria",
+          "h3": "Xehetasunek ere badute garrantzia",
+          "p": "Ondo lan egitea eta erremateei arreta eskaintzea garrantzitsuak dira niretzat. Izkina bat, atearen ertza edo bi gainazalen arteko elkargunea egunero ikusiko duzunaren parte dira. Amaitu aurretik, adostutako puntuak eta akaberaren zalantzak berrikusi ditzakegu. Gipuzkoako lan bati buruz galdetzeko, bidali kokapena eta deskribapen soil bat.",
+          "cta_text": "Kontsultatu zure kasua",
           "cta_icon_alt": "Kontaktura joan",
           "cta_icon_title": "Harremanetan jarri"
         }

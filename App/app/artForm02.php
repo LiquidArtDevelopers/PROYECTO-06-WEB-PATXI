@@ -28,7 +28,7 @@ $lang = $_POST['lang'];
 if(!isset($_POST['terminos']) || comprobarVacio($_POST['terminos'])){
     // Como viene vacía, redirijo a la página de contacto
     // echo "Hay un error pues no ha aceptado las condiciones de privacidad";
-    enviarRespuestaAsincrona("Debes aceptar las condiciones de consentimiento", true, "condiciones");
+    enviarRespuestaAsincrona("Debe aceptar las condiciones de consentimiento", true, "condiciones");
 }else{
     $terminos = $_POST['terminos'];
 }
@@ -50,11 +50,11 @@ $respUser = $_POST['respUser'];
 $respSystem = $_POST['respSystem'];
 // que venga vacío
 if(!isset($respUser)){
-    enviarRespuestaAsincrona("Debes cumplir con el captcha", true, "captcha");
+    enviarRespuestaAsincrona("Debe cumplir con el captcha", true, "captcha");
 }
 // que la respuesta sea errónea
 if($respUser != $respSystem){
-    enviarRespuestaAsincrona("Debes resolver la operación de forma correcta", true, "captcha");
+    enviarRespuestaAsincrona("Debe resolver la operación de forma correcta", true, "captcha");
 }
 
 
@@ -74,7 +74,7 @@ if($respUser != $respSystem){
 // 2 comprobar que los datos son correctos.
 // que nombre venga vacío, salimos
 if(comprobarVacio($nombre)){
-    enviarRespuestaAsincrona("Debes rellenar el campo nombre", true, "nombre");
+    enviarRespuestaAsincrona("Debe rellenar el campo nombre", true, "nombre");
 }
 // // que nombre sea menor de 3 y mayor de 40, salimos
 if(comprobarCaracteres($nombre, 3, 40)){
@@ -88,7 +88,7 @@ if(comprobarVacio($telefono)){
 
 // que correo venga vacío, salimos
 if(comprobarVacio($email)){
-    enviarRespuestaAsincrona("Debes indicar el correo electrónico", true, "email"); 
+    enviarRespuestaAsincrona("Debe indicar el correo electrónico", true, "email");
 }
 
 // // que correo no tenga la forma de un correo, salimos (expresión regular)
@@ -148,7 +148,7 @@ $correoEmisor =$_ENV['EMAIL_WEB'];
 $nombreEmisor ="Patxi Pintor Web";
 $correoDestinatario = $email;
 $nombreDestinatario= $nombre;
-$asunto = "$nombre, hemos recibido tu consulta | Patxi";
+$asunto = "$nombre, he recibido su consulta | Patxi";
 
 // recoger el template con los placeholders
 $html = file_get_contents($basePath . "/App/app/templates/artForm02.html");
@@ -159,15 +159,15 @@ $vars = [
     '{web}'                 => $web,
     '{url}'                 => $url,
     '{asunto}'              => $asunto,
-    '{aviso}'               => "$nombre, hemos recibido correctamente tu consulta para Patxi.",
-    '{explicacion}'         => "Gracias por contactar con Patxi. Revisaré tu mensaje y te responderé lo antes posible para valorar el trabajo de pintura o restauración.",
+    '{aviso}'               => "$nombre, he recibido correctamente su consulta para Patxi.",
+    '{explicacion}'         => "Gracias por contactar con Patxi. Revisaré su mensaje y le responderé lo antes posible para valorar el trabajo de pintura o restauración.",
     '{contexto}'            => 'Gracias por escribir, ',
     '{razon}'               => 'Consulta enviada a Patxi sobre pintura, restauración o presupuesto.',
     '{nombre}'              => $nombre,
     '{telefono}'            => $telefono,
     '{email}'               => $email,
     '{mensaje}'             => $mensaje,
-    '{responder}'           => 'Te responderé lo antes posible con una orientación clara sobre el siguiente paso.',
+    '{responder}'           => 'Le responderé lo antes posible para comentar el siguiente paso.',
     '{fecha}'               => $fecha,
 ];
 
@@ -208,7 +208,7 @@ if($con === false){
 // 5 redirigir a la página index para mostrar un mensaje de envío ok, en vez del formulario
 // urlencode evita romper la cabecera si el nombre lleva espacios o acentos
 
-enviarRespuestaAsincrona("Gracias por escribirme, $nombre. En breve te contactaré", false, $nombre);
+enviarRespuestaAsincrona("Gracias por escribirme, $nombre. Su consulta se ha recibido.", false, $nombre);
 
 
 
