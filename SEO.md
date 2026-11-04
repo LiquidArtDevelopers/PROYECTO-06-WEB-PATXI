@@ -2,6 +2,8 @@
 
 ## Datos de contacto confirmados — 4 de noviembre de 2026
 
+Indexación autorizada por el cliente: las 18 páginas comerciales de castellano y euskera permiten `index, follow`. El sitemap incluye únicamente esas 18 URL; las páginas legales, de error, agradecimiento y acceso mantienen `noindex, nofollow`. `robots.txt` permite el rastreo para que los buscadores puedan leer estas directivas.
+
 - Correo público: franciscogallego346@gmail.com.
 - Teléfono y WhatsApp: 626 10 70 76. Formato internacional: +34626107076.
 - Marca y actividad: Patxi, pintor y restaurador de muebles y madera.

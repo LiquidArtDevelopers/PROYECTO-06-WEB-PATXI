@@ -42,7 +42,7 @@ $headerInlineStyle = $headerImg1500 !== ''
     <link rel="canonical" href="<?=$_ENV['RUTA']?><?= $url ?>">
 
     <!-- Indexación y autoridad-->
-    <meta name="robots" data-lang="robots" content="nofollow, noindex">
+    <meta name="robots" data-lang="robots" content="index, follow">
     <meta name="referrer" content="origin">
 
     <meta property="og:type" content="website">

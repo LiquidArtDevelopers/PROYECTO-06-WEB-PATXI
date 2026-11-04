@@ -33,7 +33,7 @@ function expertise_asset_url($src) {
     <link rel="canonical" href="<?=$_ENV['RUTA']?><?= $url ?>">
 
     <!-- Indexacion y autoridad-->
-    <meta name="robots" data-lang="robots" content="nofollow, noindex">
+    <meta name="robots" data-lang="robots" content="index, follow">
     <meta name="referrer" content="origin">
 
     <meta property="og:type" content="website">
