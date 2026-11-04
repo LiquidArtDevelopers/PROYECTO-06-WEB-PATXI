@@ -1,5 +1,26 @@
 # Esquema de URLs, objetivos y encabezados
 
+## Datos de contacto confirmados — 4 de noviembre de 2026
+
+- Correo público: franciscogallego346@gmail.com.
+- Teléfono y WhatsApp: 626 10 70 76. Formato internacional: +34626107076.
+- Marca y actividad: Patxi, pintor y restaurador de muebles y madera.
+- El correo público no sustituye al remitente SMTP: la cuenta del dominio y sus credenciales siguen pendientes de configuración.
+- Identificación fiscal completa, NIF y domicilio profesional: pendientes de confirmación. Se retiran los datos heredados de la panadería y las direcciones de la academia, sin atribuirlos a Patxi.
+- No hay perfiles sociales confirmados: se retiran enlaces vacíos y perfiles de terceros del pie.
+- El catálogo de componentes `templates.php` se conserva como referencia de desarrollo, sin ruta pública `/es/showroom`.
+
+### Arquitectura de contacto y páginas auxiliares (ES / EU)
+
+| URL ES / EU | Servicio | Atributos | Finalidad | Localidad |
+| --- | --- | --- | --- | --- |
+| `/es/contacto` / `/eu/kontaktua` | Consulta de pintura y restauración | Contacto directo por teléfono, WhatsApp y correo | Preparar una solicitud de presupuesto | Gipuzkoa / Donostialdea |
+| `/es/terminos-legales` / `/eu/legezko-terminoak` | Información del sitio | Identidad comercial y contacto disponible | Consulta legal y privacidad; identificación fiscal pendiente | No se trabaja un vector local |
+
+La página de contacto explica cómo enviar la consulta; las páginas de servicio mantienen el desarrollo de técnicas y aplicaciones. Las páginas legales no compiten por búsquedas comerciales. La página de agradecimiento, actualmente sin ruta pública, se adapta también a la marca.
+
+Revisión: 20 rutas públicas comprobadas en ES y EU, sin textos de muestra ni contactos heredados en el HTML servido. Contacto conserva sus cuatro párrafos de contenido: 603 palabras en el `main` castellano y 437 en euskera, incluidos formulario y datos de contacto. No se añaden bloques para forzar el mínimo de 700 palabras; queda para la siguiente revisión decidir si conviene ampliar la estructura.
+
 - Sigue este esquema para conocer el objetivo de posicionamiento de cada URL y la jerarquía de encabezados que tiene. Sabrás de qué hablar en cada párrafo en función de su título y del objetivo de posicionamiento de dicha url.
 
 - No añadas párrafos o recursos adicionales a los existentes ya en la vista. Cuando se te pida hacer el copy y llegar a un mínimo de palabras por página, debes usar los párrafos existentes de los recursos existentes en la vista para aumentar o disminuir el número de palabras de manera coherente y lógica. Habrá páginas que por sus pocos recursos existentes en su vista sea desmedido tratar de llegar a un número alto de palabras. En ese caso se valolará el añadir más recursos de los existentes, pero se hará de forma manual. Me avisarás en tu respuesta el número de palabras que has incluido finalmente para que pueda tomar la decisión de añadir o no más recursos a la vista. 

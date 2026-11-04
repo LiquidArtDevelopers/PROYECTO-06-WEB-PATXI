@@ -51,7 +51,7 @@
         </div>
         <a href="<?=$_ENV['RUTA']?><?= $linkContacto ?? '#' ?>" class="boton" id="ctaHeader"><?= $hero_cta_text ?? '' ?></a>
         <video autoplay muted loop playsinline preload="metadata">
-            <source src="<?=$_ENV['RUTA']?>/assets/img/videos/<?= $video_name ?>.webm" type="video/webm">
+            <source src="<?=$_ENV['RUTA']?>/assets/img/videos/<?= $video_name ?? 'pintor-pisos' ?>.webm" type="video/webm">
         </video>
     </header>
 
@@ -68,7 +68,7 @@
             <?php foreach (($work_items ?? []) as $index => $item): ?>
             <!-- Articulo 01 -->
             <article class="art01<?= $index === 1 ? ' upsidedown' : '' ?>">
-                <img src="<?= $item->img_src ?? 'https://dummyimage.com/1000x700' ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
+                <img src="<?= rtrim($_ENV['RUTA'] ?? '', '/') . ($item->img_src ?? '/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif') ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
                 <div>
                     <h3><?= $item->h3 ?? '' ?></h3>
                     <p><?= $item->p ?? '' ?></p>
@@ -100,7 +100,7 @@
 
                 <p><?= $item->p2 ?? '' ?></p>
 
-                <img src="<?= $item->img_src ?? 'https://dummyimage.com/1500x900' ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
+                <img src="<?= rtrim($_ENV['RUTA'] ?? '', '/') . ($item->img_src ?? '/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif') ?>" alt="<?= $item->img_alt ?? '' ?>" title="<?= $item->img_title ?? '' ?>">
 
             </article>
             <?php endforeach; ?>
@@ -119,7 +119,7 @@
                 <div class="matrix-items">
                     <?php foreach (($space_items ?? []) as $item): ?>
                     <div class="ficha">
-                        <img src="<?= $item->img_src ?? 'https://dummyimage.com/50x50' ?>" alt="<?= $item->img_alt ?? '' ?>">
+                        <img src="<?= rtrim($_ENV['RUTA'] ?? '', '/') . ($item->img_src ?? '/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif') ?>" alt="<?= $item->img_alt ?? '' ?>">
                         <h3><?= $item->h3 ?? '' ?></h3>
                         <p><?= $item->p ?? '' ?></p>
                     </div>

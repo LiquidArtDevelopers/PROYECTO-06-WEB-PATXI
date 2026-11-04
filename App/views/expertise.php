@@ -10,7 +10,7 @@ function expertise_asset_url($src) {
     $src = (string)($src ?? '');
 
     if ($src === '') {
-        return 'https://dummyimage.com/1000x700';
+        return rtrim($_ENV['RUTA'] ?? '', '/') . '/assets/img/vistas/trabajos-de-pintura-para-interiores-y-exteriores-v2-1500.avif';
     }
 
     if (str_starts_with($src, '/assets/')) {

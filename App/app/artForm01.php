@@ -133,7 +133,7 @@ if(comprobarCaracteres($mensaje, 4, 200)){
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $web = $_ENV['RUTA'];
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Patxi, pintura y restauración";
 $correoDestinatario = $_ENV['EMAIL_ADMIN'];
 $nombreDestinatario= "Admin de la web";
 $asunto = "Has recibido una nueva consulta en la web de $nombre";
@@ -167,7 +167,7 @@ include $basePath . "/App/app/envioPhpMailer.php";
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $web = $_ENV['RUTA'];
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Patxi, pintura y restauración";
 $correoDestinatario = $email;
 $nombreDestinatario= $nombre;
 $asunto = "$nombre, hemos recibido tu consulta.";
@@ -184,7 +184,7 @@ $vars = [
     '{aviso}'               => "$nombre, hemos recibido satisfactóriamente tu consulta.",
     '{explicacion}'         => "En breve nos pondremos en contacto contigo.",
     '{contexto}'            => 'Aquí están los datos que nos has facilitado',
-    '{razon}'               => 'Consulta a la Panadería Aginaga',
+    '{razon}'               => 'Consulta a la Patxi',
     '{nombre}'              => $nombre,
     '{telefono}'            => $telefono,
     '{email}'               => $email,

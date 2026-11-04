@@ -46,12 +46,6 @@ $arrayRutasGet = [
             'view'      => '/views/expertise.php',
             'content'   => 'expertise'
         ],
-
-
-        '/es/showroom' => [
-            'view'      => '/views/templates.php',
-            'content'   => 'templates'
-        ],
         '/es/terminos-legales' => [
             'view'      => '/views/terminos.php',
             'content'   => 'terminos'

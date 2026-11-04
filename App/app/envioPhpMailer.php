@@ -32,7 +32,7 @@ try {
     $mail->Subject = $asunto; //varibles
     $mail->Body = $cuerpo; //variables
     $mail->AddEmbeddedImage($basePath . "/App/app/img/logo.png", 'logo');
-    $mail->AltBody = 'Body in plain text for non-HTML mail clients';
+    $mail->AltBody = html_entity_decode(strip_tags(preg_replace('/<br\s*\/?>(\r?\n)?|<\/p>/i', "\n", $cuerpo)), ENT_QUOTES, 'UTF-8');
 
     if (!$mail->send()) {
         echo 'Mailer Error: ' . $mail->ErrorInfo;

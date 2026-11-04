@@ -120,13 +120,13 @@ if ($con === false) {
 
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $correoEmisor =$_ENV['EMAIL_WEB']; //debe ser un correo que esté dado de alta en el servidor (webda.eus)
-$nombreEmisor ="Panadería Aginaga";
+$nombreEmisor ="Patxi";
 $correoDestinatario = $email;
 $nombreDestinatario= $nombre;
 
 switch ($lang){
     case 'es':
-        $asunto = "Hemos recibido tu correo, $nombre - Panadería Aginaga";
+        $asunto = "Hemos recibido tu correo, $nombre - Patxi";
         $cuerpo='
         <!DOCTYPE html>
         <html lang="es">
@@ -137,7 +137,7 @@ switch ($lang){
         </head>
         <body align="center" style="padding: 1.5rem;background-color: rgb(255, 227, 227);">
             <h1>Hemos recibido tu correo, '.$nombre.'</h1>
-            <p>Estos son los datos que hemos recibido en la web de <a href="https://profe.webda.eus/proyecto05/">profe.webda.eus/proyecto05</a> de tu consulta:</p>
+            <p>Estos son los datos que hemos recibido en la web de Patxi de tu consulta:</p>
             <table align="center">
                 <tr>
                     <td align="left" style="background-color: white;padding: 0.5rem 1rem;border: 1px solid black">Nombre:</td>
@@ -158,7 +158,7 @@ switch ($lang){
             </table>
 
             <p>Gracias por escribirnos.</p>
-            <p>Equipo de Panadería Agianga</p>
+            <p>Patxi</p>
             <a href="'.$_ENV['RUTA'].'/'.$lang.'">'.$_ENV['RUTA'].'/'.$lang.'</a>
             
         </body> 
@@ -166,7 +166,7 @@ switch ($lang){
         ';
         break;
     case 'eu':
-        $asunto = "Zure mezua jaso dugu, $nombre - Aginagako Okindegia";
+        $asunto = "Zure mezua jaso dugu, $nombre - Patxi";
         $cuerpo='
         <!DOCTYPE html>
         <html lang="eu">
@@ -198,7 +198,7 @@ switch ($lang){
             </table>
 
             <p>Eskerrik asko idazteagatik.</p>
-            <p>Aginagako Okindegi taldea</p>
+            <p>Patxi</p>
             <a href="'.$_ENV['RUTA'].'/'.$lang.'">'.$_ENV['RUTA'].'/'.$lang.'</a>
 
         </body>
@@ -217,7 +217,7 @@ include __DIR__ . "/envioPhpMailer.php"; //necesite ejecutar el envío de correo
 // enviar un correo al admin de la web
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Patxi, pintura y restauración";
 $correoDestinatario = $_ENV['EMAIL_ADMIN'];
 $nombreDestinatario= "Admin de la web";
 $asunto = "Has recibido una nueva consulta en la web de $nombre";
@@ -231,7 +231,7 @@ $cuerpo='
 </head>
 <body align="center" style="padding: 1.5rem;background-color: rgb(255, 227, 227);">
     <h1>Has recibido un nuevo mensaje de '.$nombre.'</h1>
-    <p>Estos son los datos que hemos recibido en la web de <a href="https://profe.webda.eus/proyecto05/">profe.webda.eus/proyecto05</a> de la consulta del usuario:</p>
+    <p>Estos son los datos que hemos recibido en la web de Patxi de la consulta del usuario:</p>
     <table align="center">
         <tr>
             <td align="left" style="background-color: white;padding: 0.5rem 1rem;border: 1px solid black">Nombre:</td>
@@ -260,7 +260,7 @@ $cuerpo='
     </table>
 
     <p>Un saludo</p>
-    <p>Equipo de Panadería Agianga</p>
+    <p>Patxi</p>
     <a href="'.$_ENV['RUTA'].'">'.$_ENV['RUTA'].'</a>
 
 </body> 

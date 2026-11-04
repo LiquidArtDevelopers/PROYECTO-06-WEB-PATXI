@@ -55,6 +55,7 @@
     ?>
 
     <main>
+        <h1><?= $hero_h1 ?></h1>
         <section>
             <div class="hito" id="legalZona"></div>
             <h2><?= $legal_h2 ?></h2>
@@ -64,8 +65,12 @@
                 <p><?= $legal_identificacion_p ?></p>
                 <ul>
                     <li><strong><?= $legal_identificacion_label_razon_social ?></strong> <?= $razonSocial ?></li>
+                    <?php if ($cif !== ''): ?>
                     <li><strong><?= $legal_identificacion_label_cif ?></strong> <?= $cif ?></li>
+                    <?php endif; ?>
+                    <?php if ($direccion !== ''): ?>
                     <li><strong><?= $legal_identificacion_label_domicilio ?></strong> <?= $direccion ?></li>
+                    <?php endif; ?>
                     <li><strong><?= $legal_identificacion_label_correo ?></strong> <a href="mailto:<?= $correo ?>"><?= $correo ?></a></li>
                 </ul>
             </article>

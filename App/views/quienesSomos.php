@@ -73,7 +73,7 @@
                 (width <= 1500px) 1800px,
                 2560px
                 "
-                src="https://dummyimage.com/900x900"
+                src="<?=$_ENV['RUTA']?>/assets/img/vistas/trato-cercano-1500.avif"
                 width="900"
                 alt="<?= $section1_img_alt ?? '' ?>"
                 title="<?= $section1_img_title ?? '' ?>">
